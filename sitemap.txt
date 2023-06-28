@@ -5,9 +5,9 @@ https://www.wuzhaoyang.fun/link/index.html
 https://www.wuzhaoyang.fun/categories/index.html
 https://www.wuzhaoyang.fun/tags/index.html
 https://www.wuzhaoyang.fun/
-https://www.wuzhaoyang.fun/tags/DDD/
-https://www.wuzhaoyang.fun/tags/Nuget/
 https://www.wuzhaoyang.fun/tags/%E7%9B%AE%E6%A0%87/
-https://www.wuzhaoyang.fun/categories/DDD/
-https://www.wuzhaoyang.fun/categories/Nuget/
+https://www.wuzhaoyang.fun/tags/Nuget/
+https://www.wuzhaoyang.fun/tags/DDD/
 https://www.wuzhaoyang.fun/categories/%E7%9B%AE%E6%A0%87/
+https://www.wuzhaoyang.fun/categories/Nuget/
+https://www.wuzhaoyang.fun/categories/DDD/
