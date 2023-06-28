@@ -5,4 +5,6 @@ https://www.wuzhaoyang.fun/categories/index.html
 https://www.wuzhaoyang.fun/tags/index.html
 https://www.wuzhaoyang.fun/
 https://www.wuzhaoyang.fun/tags/Nuget/
+https://www.wuzhaoyang.fun/tags/DDD/
 https://www.wuzhaoyang.fun/categories/Nuget/
+https://www.wuzhaoyang.fun/categories/DDD/
