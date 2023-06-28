@@ -6,7 +6,7 @@
   <link href="https://www.wuzhaoyang.fun/atom.xml" rel="self"/>
   
   <link href="https://www.wuzhaoyang.fun/"/>
-  <updated>2023-06-26T08:46:33.664Z</updated>
+  <updated>2023-06-28T01:27:13.825Z</updated>
   <id>https://www.wuzhaoyang.fun/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>领域驱动设计术语表</title>
+    <link href="https://www.wuzhaoyang.fun/2023/06/27/%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1%E6%9C%AF%E8%AF%AD%E8%A1%A8/"/>
+    <id>https://www.wuzhaoyang.fun/2023/06/27/%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1%E6%9C%AF%E8%AF%AD%E8%A1%A8/</id>
+    <published>2023-06-27T08:05:48.000Z</published>
+    <updated>2023-06-28T01:27:13.825Z</updated>
+    
+    <content type="html"><![CDATA[<p>[TOC]</p><p>领域驱动设计（Domain-Driven Design，简称DDD）是一种软件开发方法论，它强调通过深入理解领域知识和业务需求，将领域模型贯穿于整个软件开发过程中。</p><p>以下是一些领域驱动设计中常见的专业术语及其解释：</p><p>战略和战术设计是站在DDD的角度进行划分。</p><ul><li><p>战略设计侧重于高层次、宏观上去划分和集成限界上下文，而战术设计则关注更具体使用建模工具来细化上下文。</p></li><li><p>战略设计的目标是建立一个一致、有界和可演化的领域模型，帮助团队理解业务需求，并为战术设计提供指导。</p></li><li><p>战术设计的目标是在特定的限界上下文中构建合理、可维护的领域模型，通过建立领域对象之间的关系和定义明确的职责，实现业务逻辑的有效组织和封装。</p></li><li><p>战略设计：战略设计关注的是整个领域的全局性问题，以及如何将业务需求、领域知识和软件设计相结合。</p><ul><li><p>通用语言：在领域驱动设计中，通用语言是指开发团队和领域专家之间共享的、统一的业务语言。</p><p>通用语言在整个领域驱动设计过程中起着至关重要的作用。通过与领域专家密切合作，开发团队能够理解业务领域的专业术语、业务规则和概念。然后，开发团队将这些领域专有的语言转化为代码中的类、方法和属性等编程语言的元素。</p><p>通用语言的使用有助于消除开发人员和领域专家之间的沟通障碍，确保开发人员对领域需求的准确理解。它还促进了领域模型的一致性，使得领域模型能够贯穿于整个软件开发过程中，从需求分析到代码实现。</p><p>通用语言应该在限界上下文中得到充分运用，以确保在不同团队和组织之间的沟通和协作时能够保持一致。通过在代码中使用与通用语言相匹配的命名和概念，可以提高代码的可读性和可维护性，并增强团队之间的合作效率。</p></li><li><p>限界上下文（Bounded Context）：定义了业务领域的边界，并明确了在该上下文中使用的术语和概念。限界上下文帮助将大型领域划分为更小的、可管理的部分。</p></li><li><p>大胆的领域模型（Big Picture Model）：通过深入理解业务领域，建立起高层次、综合性的领域模型。这个模型用于指导整个软件系统的设计和演化。</p></li><li><p>上下文映射（Context Mapping）：指不同限界上下文之间的关系和交互方式。通过上下文映射，可以定义不同上下文之间的协作机制、数据交换方式等。</p></li><li><p>领域（Domain）：指特定业务领域或问题领域，是软件系统所涉及的核心概念和规则的集合。</p><ul><li><p>核心域（Core Domain）：核心域是指与业务的核心竞争力直接相关的部分。它包含了组织的关键业务流程、核心概念和业务规则。核心域通常是系统的重点关注区域，其中的领域模型和业务逻辑是复杂且变化频繁的。</p><p>对核心域的设计和开发需要投入更多的精力和资源，以确保系统在这个领域具有竞争优势。通常会采用更深入的领域建模和领域驱动设计技术，以满足核心业务需求。</p></li><li><p>支撑域（Supporting Domain）：支撑域是指与核心域紧密相关，但不直接构成核心业务的领域部分。它为核心域提供支持和辅助功能，帮助核心业务的实现和运行。</p><p>支撑域的特点是对业务的理解和变动要求较低，通常包括通用的基础设施、共享服务、安全性和认证等功能。支撑域的设计和开发可以借鉴成熟的技术和框架，以提高效率和稳定性。</p><p>通用域（Generic Domain）：通用域是指与特定业务领域无关的通用功能和共享资源。它包括通用的业务功能、通用工具和通用库等。通用域通常是广泛应用于多个领域的通用概念和模式。</p><p>通用域的设计和开发具有一定的通用性和重复性，可以通过复用现有的解决方案和组件来加快开发进度。通用域的设计应该具备可扩展性和灵活性，以满足不同领域的需求。</p></li><li><p>划分领域为核心域、支撑域和通用域有助于团队在系统架构和设计时有针对性地分配资源和关注点。核心域是系统的关键，需要更多的精力进行设计和演化；支撑域提供支持，减轻核心域的压力；而通用域提供了通用功能，可以在不同领域中复用。</p></li></ul></li><li></li></ul></li><li><p>战术建模：战术设计关注的是在限界上下文内部对领域模型进行具体的建模和设计。</p><ul><li>领域层(Domain Layer)：在分层架构中负责领域逻辑的那部分设计和实现。领域层是在软件中用来表示领域模型的地方。</li></ul></li><li><p>领域模型（Domain Model）：是对领域的概念、行为和规则的抽象表示。它反映了领域的本质，并与业务专家的语言相对应。</p><ul><li>实体（Entity）：是具有唯一标识的领域对象，具有生命周期和状态变化。实体通常与业务中的具体事物相对应，如订单、用户等。</li></ul></li><li><p>值对象（Value Object）：是没有唯一标识的领域对象，其价值是由其属性的组合决定的。值对象通常用于描述不可变的概念，如日期、时间、货币等。</p><ul><li>聚合（Aggregate）：是一组相关对象的集合，其中一个对象是聚合根（Aggregate Root）。聚合根负责维护整个聚合的一致性和边界。</li></ul></li><li><p>聚合根（Aggregate Root）：是聚合中的一个对象，其他对象通过聚合根进行访问和操作。聚合根具有全局唯一的标识，并负责保证聚合的完整性。</p><ul><li>领域事件（Domain Event）：表示领域中发生的重要事情或状态改变的事件。领域事件可以用于解耦领域模型之间的交互，同时支持事件驱动架构。</li></ul></li><li><p>领域服务（Domain Service）：是一种无状态的操作，提供对领域中的特定行为或业务规则的操作。领域服务通常不持有状态，但可以操作领域对象。</p><ul><li>模块Model：一个抽象的系统，描述了领域的所选方面，可用于解决与该领域有关的问题。在领域驱动设计中，模块（Module）通常是基于业务功能或子领域来定义的。它可以包含一组聚合、实体、值对象、领域服务以及处理领域事件等。模块的目的是将相关的领域概念和行为封装在一起，提供高内聚、低耦合的设计。模块有助于组织和管理复杂的领域模型，使其更易于理解和维护。每个模块可以有自己的限界上下文、领域专家和开发团队，使其能够独立地开发、测试和演化。</li></ul></li></ul><p>领域驱动设计的四个层次（Layered Architecture）：包括用户界面层（User Interface Layer）、应用层（Application Layer）、领域层（Domain Layer）和基础设施层（Infrastructure Layer）。每个层次有不同的职责和关注点，</p><ul><li><p>分析模式（Analysis Patterns）：分析模式（Analysis Patterns）是在领域驱动设计中使用的一种方法，用于识别和描述在特定领域中常见的模式和概念。这些模式和概念反映了领域内的通用问题和解决方案，并帮助开发团队更好地理解领域需求。</p><p>分析模式主要用于分析和理解领域，而不是直接用于具体的实现。它们通过描述领域中的重要概念、关系和行为，帮助开发团队和领域专家之间建立共享的语言和理解。</p><p>以下是一些常见的分析模式：</p><ol><li>实体（Entity）：表示在领域中具有唯一标识的对象。实体具有自己的属性和行为，并与其他实体之间存在关系。</li><li>值对象（Value Object）：表示在领域中具有特定属性但无需唯一标识的对象。值对象通常用于描述领域中的特定值或概念。</li><li>聚合（Aggregate）：表示一组相关对象的集合，由一个聚合根（Aggregate Root）负责维护整个聚合的一致性和边界。</li><li>仓储（Repository）：表示对领域对象进行持久化和检索的机制。仓储提供了一种访问领域对象的接口，隐藏了底层的数据访问细节。</li><li>服务（Service）：表示领域中的操作和行为，这些操作不属于特定的实体或值对象，而是跨越多个对象的逻辑操作。</li><li>事件（Event）：表示领域中发生的重要事情或状态改变。事件可以被用于触发其他领域对象的行为或通知其他上下文。</li><li>规则（Rules）：表示领域中的业务规则和约束。规则定义了领域对象的行为和限制条件。</li></ol><p>分析模式帮助开发团队通过共享的领域语言和模式，更好地理解和解决特定领域中的问题。它们可以作为设计的参考和指导，帮助构建更符合业务需求的领域模型和软件系统。</p></li><li><p>深层模型(Deep Model)：深层模型通常是指对领域进行更加细致和全面的建模，包括考虑业务的各种细节、规则和约束，以及满足领域的复杂需求。它通常与大规模、复杂的领域相关，需要深入理解和处理领域中的各种关系和交互。</p></li></ul><p>  深层模型的设计和实现需要结合领域专家的经验和领域知识，以及领域驱动设计中的建模技巧和方法。通过建立深层模型，可以更好地满足业务需求，提高系统的可靠性和灵活性。</p><p>资源拓展：</p><ol><li><a href="https://domainstorytelling.org/">Domain Storytelling - Domain Storytelling</a></li><li><a href="https://github.com/amerina/awesome-ddd">Awesome-DDD</a></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;领域驱动设计（Domain-Driven Design，简称DDD）是一种软件开发方法论，它强调通过深入理解领域知识和业务需求，将领域模型贯穿于整个软件开发过程中。&lt;/p&gt;
+&lt;p&gt;以下是一些领域驱动设计中常见的专业术语及其解释：&lt;/p&gt;
+&lt;p&gt;战略</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>从0到1发布Nuget</title>
@@ -38,26 +61,6 @@
     
     
     <category term="Nuget" scheme="https://www.wuzhaoyang.fun/tags/Nuget/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://www.wuzhaoyang.fun/2023/06/26/hello-world/"/>
-    <id>https://www.wuzhaoyang.fun/2023/06/26/hello-world/</id>
-    <published>2023-06-26T02:12:01.848Z</published>
-    <updated>2023-06-26T02:12:01.848Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
     
   </entry>
   
