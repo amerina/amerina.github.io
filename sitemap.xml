@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wuzhaoyang.fun/about.html</loc>
+    
+    <lastmod>2023-06-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wuzhaoyang.fun/2023/06/28/Find%20Your%20Life%20Goals/</loc>
     
     <lastmod>2023-06-29</lastmod>
