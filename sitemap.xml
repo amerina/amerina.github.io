@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wuzhaoyang.fun/messageboard/index.html</loc>
+    
+    <lastmod>2023-06-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wuzhaoyang.fun/about.html</loc>
     
     <lastmod>2023-06-29</lastmod>
@@ -67,7 +76,7 @@
 
   <url>
     <loc>https://www.wuzhaoyang.fun/</loc>
-    <lastmod>2023-06-29</lastmod>
+    <lastmod>2023-06-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,21 +84,21 @@
   
   <url>
     <loc>https://www.wuzhaoyang.fun/tags/%E7%9B%AE%E6%A0%87/</loc>
-    <lastmod>2023-06-29</lastmod>
+    <lastmod>2023-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/tags/Nuget/</loc>
-    <lastmod>2023-06-29</lastmod>
+    <lastmod>2023-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/tags/DDD/</loc>
-    <lastmod>2023-06-29</lastmod>
+    <lastmod>2023-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -98,21 +107,21 @@
   
   <url>
     <loc>https://www.wuzhaoyang.fun/categories/%E7%9B%AE%E6%A0%87/</loc>
-    <lastmod>2023-06-29</lastmod>
+    <lastmod>2023-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/categories/Nuget/</loc>
-    <lastmod>2023-06-29</lastmod>
+    <lastmod>2023-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/categories/DDD/</loc>
-    <lastmod>2023-06-29</lastmod>
+    <lastmod>2023-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
