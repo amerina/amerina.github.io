@@ -212,7 +212,7 @@
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'https://hexo-comment-five.vercel.app/',
+      envId: 'https://twikoo.wuzhaoyang.fun/',
       region: '',
       onCommentLoaded: function () {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -224,7 +224,7 @@
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://hexo-comment-five.vercel.app/',
+      envId: 'https://twikoo.wuzhaoyang.fun/',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
