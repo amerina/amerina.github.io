@@ -39,7 +39,7 @@
 <li>退休目标：仔细想想你的退休目标是什么</li>
 </ul>
 <h2 id="3、如何设定目标"><a href="#3、如何设定目标" class="headerlink" title="3、如何设定目标"></a>3、如何设定目标</h2><p>不管你使用什么技巧，记住，如果目标没有写下来，你就没有目标。同时，记住要为你的目标设定激励。<strong>如果你的目标不能激发行动，那么它们对你就没有用处。</strong></p>
-<h3 id="目标设定方法-x2F-技术-x2F-框架"><a href="#目标设定方法-x2F-技术-x2F-框架" class="headerlink" title="目标设定方法&#x2F;技术&#x2F;框架"></a>目标设定方法&#x2F;技术&#x2F;框架</h3><ul>
+<h3 id="目标设定方法-技术-框架"><a href="#目标设定方法-技术-框架" class="headerlink" title="目标设定方法&#x2F;技术&#x2F;框架"></a>目标设定方法&#x2F;技术&#x2F;框架</h3><ul>
 <li><p><strong>每个类别一个目标技巧</strong></p>
 <p>浏览第二章的分类列表，绞尽脑汁，直到你能为每个分类想出一个目标。</p>
 </li>
@@ -153,6 +153,126 @@
       </categories>
       <tags>
         <tag>目标</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Macola领域知识</title>
+    <url>/2023/11/20/Macola%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86/</url>
+    <content><![CDATA[<h3 id="Key-Words"><a href="#Key-Words" class="headerlink" title="Key Words"></a>Key Words</h3><table>
+<thead>
+<tr>
+<th>AP–Accounts Payable</th>
+<th>应付账款</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>AR–Accounts receivable</td>
+<td>应收账款</td>
+</tr>
+<tr>
+<td>BB-Bank account book</td>
+<td>银行账簿</td>
+</tr>
+<tr>
+<td>GL-General ledger management</td>
+<td>总账管理</td>
+</tr>
+<tr>
+<td>IM-Inventory management</td>
+<td>库存管理</td>
+</tr>
+<tr>
+<td>OE-Order management</td>
+<td>订单管理</td>
+</tr>
+<tr>
+<td>PO-purchase order</td>
+<td>采购单管理</td>
+</tr>
+<tr>
+<td>SM-System Management</td>
+<td>系统管理</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="Credit-Memo-And-Debit-Memo"><a href="#Credit-Memo-And-Debit-Memo" class="headerlink" title="Credit Memo And Debit Memo"></a>Credit Memo And Debit Memo</h3><p>在 Macola ERP 中，Credit Memo（贷项通知单）和 Debit Memo（借项通知单）是两种常见的会计术语，用于记录销售和采购交易中的调整。</p>
+<p>Credit Memo（贷项通知单）通常用于以下情况：</p>
+<ol>
+<li>退货：当客户退回已购买的产品时，您可以发出贷项通知单来退还客户的付款。</li>
+<li>价格调整：如果您需要调整产品的销售价格，您可以发出贷项通知单来减少客户的应付款项。</li>
+<li>优惠折扣：如果您给客户提供了折扣或优惠，您可以发出贷项通知单来减少客户的应付款项。</li>
+</ol>
+<p>Debit Memo（借项通知单）通常用于以下情况：</p>
+<ol>
+<li>补发货物：当您漏发了产品或提供了不完整的订单时，您可以发出借项通知单来增加客户的应付款项。</li>
+<li>价格调整：如果您需要调整产品的采购价格，您可以发出借项通知单来增加供应商的应付款项。</li>
+<li>罚款或违约金：如果供应商或客户未履行合同条款，您可以发出借项通知单来增加对方的应付款项。</li>
+</ol>
+<p>总结起来，<strong>Credit Memo（贷项通知单）用于减少客户的应付款项，而 Debit Memo（借项通知单）用于增加客户或供应商的应付款项。</strong>这些通知单可以帮助您记录交易的调整和变更，确保账目的准确性。</p>
+<h3 id="Accounts-Receivable-And-Accounts-Payable"><a href="#Accounts-Receivable-And-Accounts-Payable" class="headerlink" title="Accounts Receivable And Accounts Payable"></a>Accounts Receivable And Accounts Payable</h3><p>在 Macola ERP 中，AR 和 AP 是会计术语，分别代表应收账款（Accounts Receivable）和应付账款（Accounts Payable）。</p>
+<p>AR（应收账款）是指企业向客户销售商品或提供服务后尚未收到的付款金额。当您向客户发出销售发票时，相应的金额会记录在应收账款中。AR 反映了客户欠您的款项，是您从客户那里应收的资金。</p>
+<p>AP（应付账款）是指企业购买商品或接受服务后尚未支付的金额。当您从供应商收到采购发票时，相应的金额会记录在应付账款中。AP 反映了您欠供应商的款项，是您应付给供应商的资金。</p>
+<p>AR 和 AP 是财务管理中重要的指标，可以帮助企业跟踪和管理与客户和供应商之间的财务关系。通过监控 AR 和 AP 的变化，您可以了解企业的应收款项和应付款项的状况，并及时采取措施来确保资金流动的正常运作。</p>
+<h3 id="BB-Bank-account-book"><a href="#BB-Bank-account-book" class="headerlink" title="BB-Bank account book"></a>BB-Bank account book</h3><p> “Bank Account Book”，即银行账户簿。银行账户簿是记录企业或个人在银行中的账户活动的记录。它包含了存款、取款、利息、手续费等与银行账户相关的交易信息。</p>
+<p>在 Macola ERP 中，您可以使用银行账户簿来跟踪和管理与银行账户相关的财务活动。这包括记录存款、提现、支票、银行费用等。通过维护准确的银行账户簿，您可以确保与银行账户的余额和交易记录一致，并进行有效的现金管理和对账操作。</p>
+<h3 id="GL-Account、Cost-Unit、Cost-Center"><a href="#GL-Account、Cost-Unit、Cost-Center" class="headerlink" title="GL Account、Cost Unit、Cost Center"></a>GL Account、Cost Unit、Cost Center</h3><p>在 Macola ERP 中，”GL Account” 是指 “General Ledger Account”，即总账科目。总账科目是用于记录和跟踪企业财务交易的分类账户。它们用于汇总和组织财务信息，以便进行报表编制、财务分析和决策制定。</p>
+<p>总账科目可以代表不同类型的资产、负债、所有权权益、收入和费用。每个总账科目都有一个唯一的编码和名称，用于识别和区分不同的科目。例如，现金、应收账款、应付账款、销售收入、采购成本等都可以是总账科目。</p>
+<p>另外，”Cost Unit” 和 “Cost Center” 是与成本管理相关的概念。”Cost Unit” 是指成本单位，它可以是产品、项目、部门或其他任何可以衡量成本的实体。”Cost Center” 是指成本中心，它是一个特定部门、团队或业务单位，负责管理和控制相关成本。</p>
+<p>在 Macola ERP 中，您可以使用总账科目、成本单位和成本中心来跟踪和管理企业的财务和成本信息。这些概念相互关联，帮助您进行准确的财务报告、成本分析和预算控制。</p>
+]]></content>
+      <categories>
+        <category>Macola ERP</category>
+      </categories>
+      <tags>
+        <tag>Macola ERP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>What&#39;s UOW?</title>
+    <url>/2023/09/08/What&#39;s%20UOW/</url>
+    <content><![CDATA[<p>[TOC]</p>
+<h2 id="What’s-UOW"><a href="#What’s-UOW" class="headerlink" title="What’s UOW?"></a>What’s UOW?</h2><p>“A Unit of Work keeps track of everything you do during a business transaction that can affect the database. When you’re done, it figures out everything that needs to be done to alter the database as a result of your work.”   – Martin Fowler</p>
+<p>SO Unit of Work Key Info:</p>
+<ul>
+<li>UOW keeps track of changes</li>
+<li>UOW maintenance change list</li>
+<li>UOW commits all changes at once</li>
+</ul>
+<p>EF Core DbContext naturally UOW is realized</p>
+<ul>
+<li><p>Each DbContext instance has a ChangeTracker that tracks changes to the entity</p>
+</li>
+<li><p>When DbContext.SaveChanges is called, all changes are committed to the database in one go via the transaction</p>
+</li>
+</ul>
+<p><strong>Implementing Repository pattern in domain-driven Design，By UOW UnitOfWorkInterceptor took over after ApplicationServervice methods performed DbContext. SaveChanges operation</strong></p>
+<p><strong>The transaction is just a way to realize the unit of work. EFCore can implement UOW without using transactions.</strong></p>
+<h2 id="What’s-Ambient-Transactions"><a href="#What’s-Ambient-Transactions" class="headerlink" title="What’s Ambient Transactions?"></a>What’s Ambient Transactions?</h2><p><strong>Common Transaction：</strong></p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> (<span class="keyword">var</span> context = <span class="keyword">new</span> ApplicationDbContext())</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">using</span> (<span class="keyword">var</span> transaction = context.Database.BeginTransaction())</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">var</span> student1 = <span class="keyword">new</span> Student();</span><br><span class="line">        student1.Name = <span class="string">&quot;Robert Fatou&quot;</span>;</span><br><span class="line">        context.Add(student1);</span><br><span class="line">        context.SaveChanges();</span><br><span class="line">        <span class="comment">// The Id will have a valid value</span></span><br><span class="line">        Console.WriteLine(student1.Id);</span><br><span class="line">        <span class="comment">// Let&#x27;s revert the operation</span></span><br><span class="line">        transaction.Rollback();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>Ambient Transaction：</strong></p>
+<p>An <strong>ambient transaction</strong> is one that works at the thread level. Thus, all operations that occur in that context will be part of the transaction.</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="built_in">string</span>[] args</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">using</span> (<span class="keyword">var</span> scope = <span class="keyword">new</span> TransactionScope())</span><br><span class="line">    &#123;</span><br><span class="line">        CreateStudent();</span><br><span class="line">        CreateCourse();</span><br><span class="line">        <span class="comment">// Uncomment the following line if you want to</span></span><br><span class="line">        <span class="comment">// have the previous operations persisted in the Database</span></span><br><span class="line">        <span class="comment">//scope.Complete();</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">CreateCourse</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">using</span> (<span class="keyword">var</span> context = <span class="keyword">new</span> ApplicationDbContext())</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">var</span> course = <span class="keyword">new</span> Course();</span><br><span class="line">        course.Name = <span class="string">&quot;Programming I&quot;</span>;</span><br><span class="line">        context.Add(course);</span><br><span class="line">        context.SaveChanges();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">CreateStudent</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">using</span> (<span class="keyword">var</span> context = <span class="keyword">new</span> ApplicationDbContext())</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">var</span> student1 = <span class="keyword">new</span> Student();</span><br><span class="line">        student1.Name = <span class="string">&quot;Transaction Scope&quot;</span>;</span><br><span class="line">        context.Add(student1);</span><br><span class="line">        context.SaveChanges();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>Reference：</strong></p>
+<p><a href="https://www.martinfowler.com/eaaCatalog/unitOfWork.html">P of EAA: Unit of Work (martinfowler.com)</a></p>
+<p><a href="https://learn.microsoft.com/en-us/ef/core/dbcontext-configuration/">DbContext Lifetime, Configuration, and Initialization - EF Core | Microsoft Learn</a></p>
+<p><a href="https://learn.microsoft.com/en-us/ef/core/saving/transactions#cross-context-transaction">Transactions - EF Core | Microsoft Learn</a></p>
+<p><a href="https://learn.microsoft.com/en-us/dotnet/framework/data/transactions/implementing-an-implicit-transaction-using-transaction-scope">Implementing an Implicit Transaction using Transaction Scope - .NET Framework | Microsoft Learn</a></p>
+<p><a href="https://gavilan.blog/2018/08/02/entity-framework-core-2-1-ambient-transactions-new-functionality">Entity Framework Core 2.1: Ambient Transactions</a></p>
+]]></content>
+      <categories>
+        <category>Pattern</category>
+      </categories>
+      <tags>
+        <tag>Pattern</tag>
       </tags>
   </entry>
   <entry>
@@ -300,47 +420,6 @@
       </categories>
       <tags>
         <tag>DDD</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>What&#39;s UOW?</title>
-    <url>/2023/09/08/What&#39;s%20UOW/</url>
-    <content><![CDATA[<p>[TOC]</p>
-<h2 id="What’s-UOW"><a href="#What’s-UOW" class="headerlink" title="What’s UOW?"></a>What’s UOW?</h2><p>“A Unit of Work keeps track of everything you do during a business transaction that can affect the database. When you’re done, it figures out everything that needs to be done to alter the database as a result of your work.”   – Martin Fowler</p>
-<p>SO Unit of Work Key Info:</p>
-<ul>
-<li>UOW keeps track of changes</li>
-<li>UOW maintenance change list</li>
-<li>UOW commits all changes at once</li>
-</ul>
-<p>EF Core DbContext naturally UOW is realized</p>
-<ul>
-<li><p>Each DbContext instance has a ChangeTracker that tracks changes to the entity</p>
-</li>
-<li><p>When DbContext.SaveChanges is called, all changes are committed to the database in one go via the transaction</p>
-</li>
-</ul>
-<p><strong>Implementing Repository pattern in domain-driven Design，By UOW UnitOfWorkInterceptor took over after ApplicationServervice methods performed DbContext. SaveChanges operation</strong></p>
-<p><strong>The transaction is just a way to realize the unit of work. EFCore can implement UOW without using transactions.</strong></p>
-<h2 id="What’s-Ambient-Transactions"><a href="#What’s-Ambient-Transactions" class="headerlink" title="What’s Ambient Transactions?"></a>What’s Ambient Transactions?</h2><p><strong>Common Transaction：</strong></p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> (<span class="keyword">var</span> context = <span class="keyword">new</span> ApplicationDbContext())</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">using</span> (<span class="keyword">var</span> transaction = context.Database.BeginTransaction())</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">var</span> student1 = <span class="keyword">new</span> Student();</span><br><span class="line">        student1.Name = <span class="string">&quot;Robert Fatou&quot;</span>;</span><br><span class="line">        context.Add(student1);</span><br><span class="line">        context.SaveChanges();</span><br><span class="line">        <span class="comment">// The Id will have a valid value</span></span><br><span class="line">        Console.WriteLine(student1.Id);</span><br><span class="line">        <span class="comment">// Let&#x27;s revert the operation</span></span><br><span class="line">        transaction.Rollback();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>Ambient Transaction：</strong></p>
-<p>An <strong>ambient transaction</strong> is one that works at the thread level. Thus, all operations that occur in that context will be part of the transaction.</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="built_in">string</span>[] args</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">using</span> (<span class="keyword">var</span> scope = <span class="keyword">new</span> TransactionScope())</span><br><span class="line">    &#123;</span><br><span class="line">        CreateStudent();</span><br><span class="line">        CreateCourse();</span><br><span class="line">        <span class="comment">// Uncomment the following line if you want to</span></span><br><span class="line">        <span class="comment">// have the previous operations persisted in the Database</span></span><br><span class="line">        <span class="comment">//scope.Complete();</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">CreateCourse</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">using</span> (<span class="keyword">var</span> context = <span class="keyword">new</span> ApplicationDbContext())</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">var</span> course = <span class="keyword">new</span> Course();</span><br><span class="line">        course.Name = <span class="string">&quot;Programming I&quot;</span>;</span><br><span class="line">        context.Add(course);</span><br><span class="line">        context.SaveChanges();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">CreateStudent</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">using</span> (<span class="keyword">var</span> context = <span class="keyword">new</span> ApplicationDbContext())</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">var</span> student1 = <span class="keyword">new</span> Student();</span><br><span class="line">        student1.Name = <span class="string">&quot;Transaction Scope&quot;</span>;</span><br><span class="line">        context.Add(student1);</span><br><span class="line">        context.SaveChanges();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>Reference：</strong></p>
-<p><a href="https://www.martinfowler.com/eaaCatalog/unitOfWork.html">P of EAA: Unit of Work (martinfowler.com)</a></p>
-<p><a href="https://learn.microsoft.com/en-us/ef/core/dbcontext-configuration/">DbContext Lifetime, Configuration, and Initialization - EF Core | Microsoft Learn</a></p>
-<p><a href="https://learn.microsoft.com/en-us/ef/core/saving/transactions#cross-context-transaction">Transactions - EF Core | Microsoft Learn</a></p>
-<p><a href="https://learn.microsoft.com/en-us/dotnet/framework/data/transactions/implementing-an-implicit-transaction-using-transaction-scope">Implementing an Implicit Transaction using Transaction Scope - .NET Framework | Microsoft Learn</a></p>
-<p><a href="https://gavilan.blog/2018/08/02/entity-framework-core-2-1-ambient-transactions-new-functionality">Entity Framework Core 2.1: Ambient Transactions</a></p>
-]]></content>
-      <categories>
-        <category>Pattern</category>
-      </categories>
-      <tags>
-        <tag>Pattern</tag>
       </tags>
   </entry>
 </search>
