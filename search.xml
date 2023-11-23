@@ -436,7 +436,7 @@
       </tags>
   </entry>
   <entry>
-    <title>NET Core API最佳实践</title>
+    <title>.NET Core API最佳实践</title>
     <url>/2023/11/23/NET%20Core%20API%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</url>
     <content><![CDATA[<p>[TOC]</p>
 <h3 id="1、紧密耦合"><a href="#1、紧密耦合" class="headerlink" title="1、紧密耦合"></a>1、紧密耦合</h3><p>​		 避免在控制器中声明特定的依赖项实例，应该使用依赖注入系统将依赖项注入到控制器中。后者避免了紧密耦合，更加易于维护和测试。</p>
@@ -483,10 +483,10 @@
 </ol>
 ]]></content>
       <categories>
-        <category>NETCore</category>
+        <category>.NETCore</category>
       </categories>
       <tags>
-        <tag>NETCore,API</tag>
+        <tag>.NETCore,API</tag>
       </tags>
   </entry>
 </search>
