@@ -1,3 +1,4 @@
+https://www.wuzhaoyang.fun/2023/11/23/NET%20Core%20API%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/
 https://www.wuzhaoyang.fun/2023/11/20/Macola%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86/
 https://www.wuzhaoyang.fun/2023/09/08/What's%20UOW/
 https://www.wuzhaoyang.fun/2023/06/27/%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1%E6%9C%AF%E8%AF%AD%E8%A1%A8/
@@ -9,13 +10,15 @@ https://www.wuzhaoyang.fun/link/index.html
 https://www.wuzhaoyang.fun/categories/index.html
 https://www.wuzhaoyang.fun/tags/index.html
 https://www.wuzhaoyang.fun/
-https://www.wuzhaoyang.fun/tags/%E7%9B%AE%E6%A0%87/
-https://www.wuzhaoyang.fun/tags/Macola-ERP/
 https://www.wuzhaoyang.fun/tags/Pattern/
+https://www.wuzhaoyang.fun/tags/Macola-ERP/
+https://www.wuzhaoyang.fun/tags/%E7%9B%AE%E6%A0%87/
 https://www.wuzhaoyang.fun/tags/Nuget/
 https://www.wuzhaoyang.fun/tags/DDD/
-https://www.wuzhaoyang.fun/categories/%E7%9B%AE%E6%A0%87/
-https://www.wuzhaoyang.fun/categories/Macola-ERP/
+https://www.wuzhaoyang.fun/tags/NETCore-API/
 https://www.wuzhaoyang.fun/categories/Pattern/
+https://www.wuzhaoyang.fun/categories/Macola-ERP/
+https://www.wuzhaoyang.fun/categories/%E7%9B%AE%E6%A0%87/
 https://www.wuzhaoyang.fun/categories/Nuget/
 https://www.wuzhaoyang.fun/categories/DDD/
+https://www.wuzhaoyang.fun/categories/NETCore/
