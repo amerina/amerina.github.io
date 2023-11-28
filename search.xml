@@ -282,10 +282,10 @@
 </ol>
 ]]></content>
       <categories>
-        <category>目标</category>
+        <category>Goal</category>
       </categories>
       <tags>
-        <tag>目标</tag>
+        <tag>Goal</tag>
       </tags>
   </entry>
   <entry>
@@ -1172,10 +1172,199 @@
 <p>Continue…Add Later</p>
 ]]></content>
       <categories>
-        <category>目标</category>
+        <category>Goal</category>
       </categories>
       <tags>
-        <tag>目标</tag>
+        <tag>Goal</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Time Will Tell Me The Answer</title>
+    <url>/2023/11/28/Time%20Will%20Tell%20Me%20The%20Answer/</url>
+    <content><![CDATA[<h3 id="ASP-NET-Core框架"><a href="#ASP-NET-Core框架" class="headerlink" title="ASP.NET Core框架"></a>ASP.NET Core框架</h3><h4 id="一次请求的奇妙旅程"><a href="#一次请求的奇妙旅程" class="headerlink" title="一次请求的奇妙旅程"></a>一次请求的奇妙旅程</h4><h4 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h4><ul>
+<li>MVC</li>
+<li>WebAPI</li>
+<li>RazorPages</li>
+<li>SignalR</li>
+</ul>
+<h4 id="Security"><a href="#Security" class="headerlink" title="Security"></a>Security</h4><ul>
+<li>DataProtection</li>
+<li>Authentication</li>
+<li>Authorization</li>
+</ul>
+<h4 id="NETCore"><a href="#NETCore" class="headerlink" title=".NETCore"></a>.NETCore</h4><ul>
+<li>Hosting</li>
+<li>Servers</li>
+<li>Http</li>
+<li>Routing</li>
+</ul>
+<h4 id="Middleware"><a href="#Middleware" class="headerlink" title="Middleware"></a>Middleware</h4><ul>
+<li>StaticFiles</li>
+<li>WebSockets</li>
+<li>HttpOverrides</li>
+<li>HealthChecks</li>
+<li>Rewrite</li>
+<li>CORS</li>
+</ul>
+<h4 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h4><ul>
+<li>DependencyInjection</li>
+<li>Logging</li>
+<li>Configuration</li>
+<li>Options</li>
+<li>Http</li>
+<li>Hosting</li>
+<li>Caching</li>
+<li>Diagnostics</li>
+<li>Localization</li>
+</ul>
+<h3 id="ASP-NET-Core生态组件"><a href="#ASP-NET-Core生态组件" class="headerlink" title="ASP.NET Core生态组件"></a>ASP.NET Core生态组件</h3><h4 id="Front-End"><a href="#Front-End" class="headerlink" title="Front End"></a>Front End</h4><ul>
+<li><strong>Razor Pages</strong></li>
+<li>Blazor</li>
+</ul>
+<h4 id="AOP"><a href="#AOP" class="headerlink" title="AOP"></a>AOP</h4><ul>
+<li>AspectCore</li>
+<li><strong>Autofac</strong></li>
+</ul>
+<h4 id="Object-Mapping"><a href="#Object-Mapping" class="headerlink" title="Object Mapping"></a>Object Mapping</h4><ul>
+<li><strong>AutoMap</strong></li>
+<li>Mapster</li>
+</ul>
+<h4 id="Job-Schedule"><a href="#Job-Schedule" class="headerlink" title="Job&amp;Schedule"></a>Job&amp;Schedule</h4><ul>
+<li><strong>Hangfire</strong></li>
+<li>Quartz</li>
+</ul>
+<h4 id="Authentication-Authorization"><a href="#Authentication-Authorization" class="headerlink" title="Authentication&amp;Authorization"></a>Authentication&amp;Authorization</h4><ul>
+<li>ASP.NET Core Identity</li>
+<li>IdentityServer4</li>
+</ul>
+<h4 id="ORM"><a href="#ORM" class="headerlink" title="ORM"></a>ORM</h4><ul>
+<li><strong>EF Core</strong></li>
+<li><strong>Dapper</strong></li>
+<li>SmartSql</li>
+</ul>
+<h4 id="Fault-Recovery"><a href="#Fault-Recovery" class="headerlink" title="Fault Recovery"></a>Fault Recovery</h4><ul>
+<li><strong>Polly</strong></li>
+</ul>
+<h4 id="Template"><a href="#Template" class="headerlink" title="Template"></a>Template</h4><ul>
+<li>ASP.NET Bollerplate Project(ABP)</li>
+<li><strong>ABP VNext</strong></li>
+</ul>
+<h4 id="Document"><a href="#Document" class="headerlink" title="Document"></a>Document</h4><ul>
+<li>Swagger</li>
+</ul>
+<h4 id="RPC"><a href="#RPC" class="headerlink" title="RPC"></a>RPC</h4><ul>
+<li><strong>gRPC</strong></li>
+</ul>
+<h4 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h4><ul>
+<li><p>Framework</p>
+<ul>
+<li><strong>XUnit</strong></li>
+<li>MSTest</li>
+<li>NUnit</li>
+</ul>
+</li>
+<li><p>Tools</p>
+<ul>
+<li><strong>Moq</strong></li>
+</ul>
+</li>
+<li><p>PostMan</p>
+</li>
+<li><p><a href="http://genfu.io/">GenFu</a>-use to generate realistic test data</p>
+</li>
+<li><p>CURL</p>
+</li>
+</ul>
+<h4 id="Configuration"><a href="#Configuration" class="headerlink" title="Configuration"></a>Configuration</h4><ul>
+<li>Disconf</li>
+<li><strong>Consul</strong></li>
+</ul>
+<h4 id="Caching"><a href="#Caching" class="headerlink" title="Caching"></a>Caching</h4><ul>
+<li>MemoryCache</li>
+<li><strong>Redis</strong></li>
+<li>Memcached</li>
+</ul>
+<h4 id="Monitoring"><a href="#Monitoring" class="headerlink" title="Monitoring"></a>Monitoring</h4><h4 id="Logging"><a href="#Logging" class="headerlink" title="Logging"></a>Logging</h4><ul>
+<li>Log4Net</li>
+<li>ExceptionLess</li>
+<li><strong>Serilog</strong></li>
+</ul>
+<h4 id="Tracing"><a href="#Tracing" class="headerlink" title="Tracing"></a>Tracing</h4><ul>
+<li><strong>Skywalking</strong></li>
+</ul>
+<h4 id="Storage"><a href="#Storage" class="headerlink" title="Storage"></a>Storage</h4><ul>
+<li>SQL Server</li>
+<li>MongoDB</li>
+<li>Redis</li>
+</ul>
+<h4 id="Searching"><a href="#Searching" class="headerlink" title="Searching"></a>Searching</h4><ul>
+<li>Elasticsearch</li>
+</ul>
+<h4 id="Message-Queue"><a href="#Message-Queue" class="headerlink" title="Message Queue"></a>Message Queue</h4><ul>
+<li><strong>RabbitMQ</strong></li>
+<li>Apache Kafka</li>
+<li>ActiveMQ</li>
+</ul>
+<h4 id="Gateway"><a href="#Gateway" class="headerlink" title="Gateway"></a>Gateway</h4><ul>
+<li><strong>Ocelot</strong></li>
+</ul>
+<h4 id="Big-Data"><a href="#Big-Data" class="headerlink" title="Big Data"></a>Big Data</h4><ul>
+<li>Data Accelerator</li>
+<li>.NET for Apache Spark</li>
+</ul>
+<h4 id="Load-Balancing"><a href="#Load-Balancing" class="headerlink" title="Load Balancing"></a>Load Balancing</h4><ul>
+<li><strong>Nginx</strong></li>
+<li>Envoy</li>
+</ul>
+<h4 id="Email-Send"><a href="#Email-Send" class="headerlink" title="Email Send"></a>Email Send</h4><ul>
+<li>LumiSoft.Net</li>
+</ul>
+<h4 id="Performance-Analysis"><a href="#Performance-Analysis" class="headerlink" title="Performance Analysis"></a>Performance Analysis</h4><ul>
+<li>MiniProfiler</li>
+</ul>
+<h4 id="Excel-Operation"><a href="#Excel-Operation" class="headerlink" title="Excel Operation"></a>Excel Operation</h4><ul>
+<li><strong>EPPlus</strong></li>
+</ul>
+<h3 id="领域驱动设计"><a href="#领域驱动设计" class="headerlink" title="领域驱动设计"></a>领域驱动设计</h3><h4 id="Application"><a href="#Application" class="headerlink" title="Application"></a>Application</h4><ul>
+<li>Controller</li>
+<li>Validation</li>
+<li>Mapping</li>
+<li>Authentication</li>
+<li>Authorization</li>
+<li>Command Handler</li>
+<li>Domain EventHandler</li>
+<li>Integration EventHandler</li>
+<li>Query Handler</li>
+</ul>
+<h4 id="DomainModel"><a href="#DomainModel" class="headerlink" title="DomainModel"></a>DomainModel</h4><ul>
+<li>Aggregate</li>
+<li>Entity</li>
+<li>ValueObject</li>
+<li>DomainEvent</li>
+</ul>
+<h4 id="Repository"><a href="#Repository" class="headerlink" title="Repository"></a>Repository</h4><ul>
+<li>Repository</li>
+<li>UnitOfWork</li>
+<li>DbContext</li>
+<li>Transcation</li>
+</ul>
+<h4 id="Infrastructure"><a href="#Infrastructure" class="headerlink" title="Infrastructure"></a>Infrastructure</h4><ul>
+<li>Config</li>
+<li>EventBus</li>
+<li>Caching</li>
+<li>Logging</li>
+<li>…</li>
+</ul>
+<h3 id="ABP架构思想"><a href="#ABP架构思想" class="headerlink" title="ABP架构思想"></a>ABP架构思想</h3><ul>
+<li>Module模块化</li>
+<li>工作单元</li>
+</ul>
+<h3 id="微服务架构"><a href="#微服务架构" class="headerlink" title="微服务架构"></a>微服务架构</h3><h3 id="软件工程"><a href="#软件工程" class="headerlink" title="软件工程"></a>软件工程</h3><h4 id="编程范式与设计模式"><a href="#编程范式与设计模式" class="headerlink" title="编程范式与设计模式"></a>编程范式与设计模式</h4><h4 id="数据结构与算法"><a href="#数据结构与算法" class="headerlink" title="数据结构与算法"></a>数据结构与算法</h4><h4 id="软件架构设计"><a href="#软件架构设计" class="headerlink" title="软件架构设计"></a>软件架构设计</h4><h4 id="整洁与重构"><a href="#整洁与重构" class="headerlink" title="整洁与重构"></a>整洁与重构</h4><h4 id="协作与项目管理"><a href="#协作与项目管理" class="headerlink" title="协作与项目管理"></a>协作与项目管理</h4><h3 id="个人知识体系"><a href="#个人知识体系" class="headerlink" title="个人知识体系"></a>个人知识体系</h3><h4 id="思维脑图"><a href="#思维脑图" class="headerlink" title="思维脑图"></a>思维脑图</h4><h4 id="学习路径-进阶指南"><a href="#学习路径-进阶指南" class="headerlink" title="学习路径&amp;进阶指南"></a>学习路径&amp;进阶指南</h4><h4 id="资源列表-书籍列表"><a href="#资源列表-书籍列表" class="headerlink" title="资源列表&amp;书籍列表"></a>资源列表&amp;书籍列表</h4><h4 id="速学速查手册"><a href="#速学速查手册" class="headerlink" title="速学速查手册"></a>速学速查手册</h4><h4 id="面试指南"><a href="#面试指南" class="headerlink" title="面试指南"></a>面试指南</h4>]]></content>
+      <categories>
+        <category>.NETCore</category>
+      </categories>
+      <tags>
+        <tag>.NETCore</tag>
       </tags>
   </entry>
 </search>

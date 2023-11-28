@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wuzhaoyang.fun/2023/11/28/Time%20Will%20Tell%20Me%20The%20Answer/</loc>
+    
+    <lastmod>2023-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wuzhaoyang.fun/2023/06/28/Find%20Your%20Life%20Goals/</loc>
+    
+    <lastmod>2023-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wuzhaoyang.fun/2023/11/28/To%20Be%20YourSelf/</loc>
     
     <lastmod>2023-11-28</lastmod>
@@ -57,15 +75,6 @@
   
   <url>
     <loc>https://www.wuzhaoyang.fun/about.html</loc>
-    
-    <lastmod>2023-06-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wuzhaoyang.fun/2023/06/28/Find%20Your%20Life%20Goals/</loc>
     
     <lastmod>2023-06-29</lastmod>
     
@@ -133,13 +142,6 @@
   </url>
   
   <url>
-    <loc>https://www.wuzhaoyang.fun/tags/%E7%9B%AE%E6%A0%87/</loc>
-    <lastmod>2023-11-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.wuzhaoyang.fun/tags/Nuget/</loc>
     <lastmod>2023-11-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -155,6 +157,20 @@
   
   <url>
     <loc>https://www.wuzhaoyang.fun/tags/NETCore-API/</loc>
+    <lastmod>2023-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wuzhaoyang.fun/tags/Goal/</loc>
+    <lastmod>2023-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wuzhaoyang.fun/tags/NETCore/</loc>
     <lastmod>2023-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -177,13 +193,6 @@
   </url>
   
   <url>
-    <loc>https://www.wuzhaoyang.fun/categories/%E7%9B%AE%E6%A0%87/</loc>
-    <lastmod>2023-11-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.wuzhaoyang.fun/categories/Nuget/</loc>
     <lastmod>2023-11-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -199,6 +208,13 @@
   
   <url>
     <loc>https://www.wuzhaoyang.fun/categories/NETCore/</loc>
+    <lastmod>2023-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wuzhaoyang.fun/categories/Goal/</loc>
     <lastmod>2023-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
