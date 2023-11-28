@@ -1717,7 +1717,8 @@
         <category>.NETCore</category>
       </categories>
       <tags>
-        <tag>.NETCore,API</tag>
+        <tag>.NETCore</tag>
+        <tag>API</tag>
       </tags>
   </entry>
   <entry>

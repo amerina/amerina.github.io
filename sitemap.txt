@@ -1,6 +1,6 @@
+https://www.wuzhaoyang.fun/2023/11/23/NET%20Core%20API%20Best%20Practices/
 https://www.wuzhaoyang.fun/2023/06/26/Publish%20Nuget%20from%200%20to%201/
 https://www.wuzhaoyang.fun/2023/06/27/Domain%20Driven%20Design%20Glossary/
-https://www.wuzhaoyang.fun/2023/11/23/NET%20Core%20API%20Best%20Practices/
 https://www.wuzhaoyang.fun/2023/11/20/Macola%20Domain%20Knowledge/
 https://www.wuzhaoyang.fun/2023/11/28/Make%20Your%20Time%20Valuable/
 https://www.wuzhaoyang.fun/2023/11/28/Time%20Will%20Tell%20Me%20The%20Answer/
@@ -17,9 +17,9 @@ https://www.wuzhaoyang.fun/tags/Pattern/
 https://www.wuzhaoyang.fun/tags/Macola-ERP/
 https://www.wuzhaoyang.fun/tags/Nuget/
 https://www.wuzhaoyang.fun/tags/DDD/
-https://www.wuzhaoyang.fun/tags/NETCore-API/
 https://www.wuzhaoyang.fun/tags/Goal/
 https://www.wuzhaoyang.fun/tags/NETCore/
+https://www.wuzhaoyang.fun/tags/API/
 https://www.wuzhaoyang.fun/categories/Pattern/
 https://www.wuzhaoyang.fun/categories/Macola-ERP/
 https://www.wuzhaoyang.fun/categories/Nuget/
