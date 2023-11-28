@@ -42,98 +42,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Macola领域知识</title>
-    <url>/2023/11/20/Macola%E9%A2%86%E5%9F%9F%E7%9F%A5%E8%AF%86/</url>
-    <content><![CDATA[<h3 id="Key-Words"><a href="#Key-Words" class="headerlink" title="Key Words"></a>Key Words</h3><table>
-<thead>
-<tr>
-<th>AP–Accounts Payable</th>
-<th>应付账款</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>AR–Accounts receivable</td>
-<td>应收账款</td>
-</tr>
-<tr>
-<td>BB-Bank account book</td>
-<td>银行账簿</td>
-</tr>
-<tr>
-<td>GL-General ledger management</td>
-<td>总账管理</td>
-</tr>
-<tr>
-<td>IM-Inventory management</td>
-<td>库存管理</td>
-</tr>
-<tr>
-<td>OE-Order management</td>
-<td>订单管理</td>
-</tr>
-<tr>
-<td>PO-purchase order</td>
-<td>采购订单</td>
-</tr>
-<tr>
-<td>SM-System Management</td>
-<td>系统管理</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<h3 id="Credit-Memo-And-Debit-Memo"><a href="#Credit-Memo-And-Debit-Memo" class="headerlink" title="Credit Memo And Debit Memo"></a>Credit Memo And Debit Memo</h3><p>在 Macola ERP 中，Credit Memo（贷项通知单）和 Debit Memo（借项通知单）是两种常见的会计术语，用于记录销售和采购交易中的调整。</p>
-<p>Credit Memo（贷项通知单）通常用于以下情况：</p>
-<ol>
-<li>退货：当客户退回已购买的产品时，您可以发出贷项通知单来退还客户的付款。</li>
-<li>价格调整：如果您需要调整产品的销售价格，您可以发出贷项通知单来减少客户的应付款项。</li>
-<li>优惠折扣：如果您给客户提供了折扣或优惠，您可以发出贷项通知单来减少客户的应付款项。</li>
-</ol>
-<p>Debit Memo（借项通知单）通常用于以下情况：</p>
-<ol>
-<li>补发货物：当您漏发了产品或提供了不完整的订单时，您可以发出借项通知单来增加客户的应付款项。</li>
-<li>价格调整：如果您需要调整产品的采购价格，您可以发出借项通知单来增加供应商的应付款项。</li>
-<li>罚款或违约金：如果供应商或客户未履行合同条款，您可以发出借项通知单来增加对方的应付款项。</li>
-</ol>
-<p>总结起来，<strong>Credit Memo（贷项通知单）用于减少客户的应付款项，而 Debit Memo（借项通知单）用于增加客户或供应商的应付款项。</strong>这些通知单可以帮助您记录交易的调整和变更，确保账目的准确性。</p>
-<h3 id="Accounts-Receivable-And-Accounts-Payable"><a href="#Accounts-Receivable-And-Accounts-Payable" class="headerlink" title="Accounts Receivable And Accounts Payable"></a>Accounts Receivable And Accounts Payable</h3><p>在 Macola ERP 中，AR 和 AP 是会计术语，分别代表应收账款（Accounts Receivable）和应付账款（Accounts Payable）。</p>
-<p>AR（应收账款）是指企业向客户销售商品或提供服务后尚未收到的付款金额。当您向客户发出销售发票时，相应的金额会记录在应收账款中。AR 反映了客户欠您的款项，是您从客户那里应收的资金。</p>
-<p>AP（应付账款）是指企业购买商品或接受服务后尚未支付的金额。当您从供应商收到采购发票时，相应的金额会记录在应付账款中。AP 反映了您欠供应商的款项，是您应付给供应商的资金。</p>
-<p>AR 和 AP 是财务管理中重要的指标，可以帮助企业跟踪和管理与客户和供应商之间的财务关系。通过监控 AR 和 AP 的变化，您可以了解企业的应收款项和应付款项的状况，并及时采取措施来确保资金流动的正常运作。</p>
-<h3 id="Accounts-Payable"><a href="#Accounts-Payable" class="headerlink" title="Accounts Payable"></a>Accounts Payable</h3><h3 id="BB-Bank-account-book"><a href="#BB-Bank-account-book" class="headerlink" title="BB-Bank account book"></a>BB-Bank account book</h3><p> “Bank Account Book”，即银行账户簿。银行账户簿是记录企业或个人在银行中的账户活动的记录。它包含了存款、取款、利息、手续费等与银行账户相关的交易信息。</p>
-<p>在 Macola ERP 中，您可以使用银行账户簿来跟踪和管理与银行账户相关的财务活动。这包括记录存款、提现、支票、银行费用等。通过维护准确的银行账户簿，您可以确保与银行账户的余额和交易记录一致，并进行有效的现金管理和对账操作。</p>
-<h3 id="GL-Account、Cost-Unit、Cost-Center"><a href="#GL-Account、Cost-Unit、Cost-Center" class="headerlink" title="GL Account、Cost Unit、Cost Center"></a>GL Account、Cost Unit、Cost Center</h3><p>在 Macola ERP 中，”GL Account” 是指 “General Ledger Account”，即总账科目。总账科目是用于记录和跟踪企业财务交易的分类账户。它们用于汇总和组织财务信息，以便进行报表编制、财务分析和决策制定。</p>
-<p>总账科目可以代表不同类型的资产、负债、所有权权益、收入和费用。每个总账科目都有一个唯一的编码和名称，用于识别和区分不同的科目。例如，现金、应收账款、应付账款、销售收入、采购成本等都可以是总账科目。</p>
-<p>另外，”Cost Unit” 和 “Cost Center” 是与成本管理相关的概念。”Cost Unit” 是指成本单位，它可以是产品、项目、部门或其他任何可以衡量成本的实体。”Cost Center” 是指成本中心，它是一个特定部门、团队或业务单位，负责管理和控制相关成本。</p>
-<p>在 Macola ERP 中，您可以使用总账科目、成本单位和成本中心来跟踪和管理企业的财务和成本信息。这些概念相互关联，帮助您进行准确的财务报告、成本分析和预算控制。</p>
-<h3 id="Closing-of-account-period"><a href="#Closing-of-account-period" class="headerlink" title="Closing of account period"></a>Closing of account period</h3><p>在 Macola ERP 中，”账期关闭”是指在特定时间段结束后，对财务和会计模块中的账期进行结算和关闭的过程。账期关闭的目的是确保财务数据的准确性和完整性，以便进行财务报表的生成和分析。</p>
-<p>账期关闭通常涉及以下步骤：</p>
-<ol>
-<li><p>结账准备：在进行账期关闭之前，需要进行一些准备工作。这包括确认所有财务交易都已正确记录和处理，检查余额和科目的准确性，处理未对账的项目，确保凭证和账户的一致性等。</p>
-</li>
-<li><p>结账操作：一旦准备工作完成，可以进行账期关闭操作。这通常由财务或会计人员在 Macola ERP 中执行。在进行账期关闭时，系统会自动进行一系列的处理，如计算余额、更新账期信息、生成结账报表等。</p>
-</li>
-<li><p>结账报表：账期关闭后，系统会生成一些结账报表，用于展示账期内的财务数据和统计信息。这些报表可以包括利润表、资产负债表、现金流量表等财务报表，以及其他统计报表和分析工具。</p>
-</li>
-<li><p>锁定账期：一旦账期关闭和报表生成完成，通常会对该账期进行锁定，防止后续的修改或录入操作对已结账期的数据产生影响。这可以确保账期的数据不会被意外更改，保持数据的完整性和可追溯性。</p>
-</li>
-</ol>
-<p>通过账期关闭的操作，企业可以确保财务数据的准确性和一致性，为管理层和利益相关者提供可靠的财务信息，并支持决策和报告的准备工作。这是财务和会计管理中的重要步骤，有助于维护财务数据的可靠性和可信度。</p>
-]]></content>
-      <categories>
-        <category>Macola ERP</category>
-      </categories>
-      <tags>
-        <tag>Macola ERP</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Find Your Life Goals</title>
     <url>/2023/06/28/Find%20Your%20Life%20Goals/</url>
     <content><![CDATA[<p>[TOC]</p>
@@ -286,207 +194,6 @@
       </categories>
       <tags>
         <tag>Goal</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>从0到1发布Nuget</title>
-    <url>/2023/06/26/%E4%BB%8E0%E5%88%B01%E5%8F%91%E5%B8%83Nuget/</url>
-    <content><![CDATA[<p>[TOC]</p>
-<h2 id="Nuget"><a href="#Nuget" class="headerlink" title="Nuget"></a>Nuget</h2><h3 id="1、创建示例项目"><a href="#1、创建示例项目" class="headerlink" title="1、创建示例项目"></a>1、创建示例项目</h3><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="literal">--</span>创建文件夹EasyUtilityCore</span><br><span class="line"><span class="built_in">md</span> EasyUtilityCore</span><br><span class="line"><span class="built_in">cd</span> EasyUtilityCore</span><br><span class="line"></span><br><span class="line"><span class="literal">--</span>新建EasyUtilityCore类库</span><br><span class="line">dotnet new classlib</span><br></pre></td></tr></table></figure>
-
-<p>新建扩展StringExtension</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> <span class="title">EasyUtilityCore</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title">StringExtension</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> 忽略空格与大小写</span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;strA&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;strB&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;returns&gt;</span><span class="doctag">&lt;/returns&gt;</span></span></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="built_in">bool</span> <span class="title">CompareIgnoreCaseAndSpace</span>(<span class="params"><span class="keyword">this</span> <span class="built_in">string</span> strA, <span class="built_in">string</span> strB</span>)</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (strA == <span class="literal">null</span> || strB == <span class="literal">null</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">return</span> strA == strB;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">return</span> strA.Trim().ToLower() == strB.Trim().ToLower();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> 超长字符串截取</span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> 处理较短字符串截取Case</span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;str&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;length&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;index&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;returns&gt;</span><span class="doctag">&lt;/returns&gt;</span></span></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="built_in">string</span> <span class="title">Sub</span>(<span class="params"><span class="keyword">this</span> <span class="built_in">string</span> str, <span class="built_in">int</span> length, <span class="built_in">int</span> index = <span class="number">0</span></span>)</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (str == <span class="literal">null</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">return</span> str;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">return</span> str.Substring(index, Math.Min(str.Length, length));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">--构建类库</span><br><span class="line">dotnet build</span><br></pre></td></tr></table></figure>
-
-<h3 id="2、添加包元数据"><a href="#2、添加包元数据" class="headerlink" title="2、添加包元数据"></a>2、添加包元数据</h3><p>每个 NuGet 包都需要一个清单，用以描述包的内容和依赖项。 在最终包中，清单是基于项目文件中包含的 NuGet 元数据属性生成的 文件。</p>
-<p>打开 <em>.csproj</em>项目文件，并在现有 <code>&lt;PropertyGroup&gt;</code> 标记中添加以下属性。</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">PackageId</span>&gt;</span>EasyUtilityCore<span class="tag">&lt;/<span class="name">PackageId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">Version</span>&gt;</span>1.0.0<span class="tag">&lt;/<span class="name">Version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">Authors</span>&gt;</span>wzyandi<span class="tag">&lt;/<span class="name">Authors</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">Company</span>&gt;</span>wzyandi<span class="tag">&lt;/<span class="name">Company</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">Description</span>&gt;</span>Some common extension methods<span class="tag">&lt;/<span class="name">Description</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">RepositoryUrl</span>&gt;</span>https://github.com/amerina/EasyUtilityCore<span class="tag">&lt;/<span class="name">RepositoryUrl</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">PackageProjectUrl</span>&gt;</span>https://github.com/amerina/EasyUtilityCore<span class="tag">&lt;/<span class="name">PackageProjectUrl</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">RepositoryType</span>&gt;</span>Git<span class="tag">&lt;/<span class="name">RepositoryType</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">PackageTags</span>&gt;</span>ASP.NET Core,Utility Method<span class="tag">&lt;/<span class="name">PackageTags</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">Copyright</span>&gt;</span>Amerina<span class="tag">&lt;/<span class="name">Copyright</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>PackageId在 nuget.org必须是唯一的。</p>
-<h3 id="3、构建包"><a href="#3、构建包" class="headerlink" title="3、构建包"></a>3、构建包</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">dotnet pack</span><br></pre></td></tr></table></figure>
-
-<p>查看EasyUtilityCore\bin\Debug路径已生成EasyUtilityCore.1.0.0.nupkg文件</p>
-<h3 id="4、发布包"><a href="#4、发布包" class="headerlink" title="4、发布包"></a>4、发布包</h3><p>将 <em>.nupkg</em> 文件发布到 nuget.org，方法是将 dotnet nuget push命令与从 nuget.org 获取的 API 密钥配合使用。</p>
-<p>获取 API 密钥</p>
-<ol>
-<li><a href="https://www.nuget.org/users/account/LogOn?returnUrl=/">登录你的 nuget.org 帐户</a>，或创建一个帐户（如果你还没有帐户）。</li>
-<li>选择用户名（在右上角），然后选择“API 密钥”。</li>
-<li>选择 <strong>“创建”</strong>，并提供密钥的名称。</li>
-<li>在 <strong>“选择范围”</strong>下，选择“ <strong>推送</strong>”。</li>
-<li>在 <strong>“选择包</strong>&gt;<strong>Glob 模式</strong>”下，输入 *。</li>
-<li>选择“创建”。</li>
-<li>选择 <strong>“复制</strong> ”以复制新密钥。</li>
-</ol>
-<p>在包含 <em>.nupkg</em> 文件的文件夹运行以下命令。</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">dotnet nuget push EasyUtilityCore.<span class="number">1.0</span>.<span class="number">0</span>.nupkg <span class="literal">-key</span> [<span class="type">yourKey</span>] <span class="literal">-s</span> https://api.nuget.org/v3/index.json</span><br></pre></td></tr></table></figure>
-
-<h3 id="5、包版本控制"><a href="#5、包版本控制" class="headerlink" title="5、包版本控制"></a>5、包版本控制</h3><p>特定版本号的格式为 Major.Minor.Patch[-Suffix] ，其中的组件具有以下含义：</p>
-<ul>
-<li><em>Major</em>：重大更改</li>
-<li><em>Minor</em>：新增功能，但可向后兼容</li>
-<li><em>Patch</em>：仅可向后兼容的 bug 修复</li>
-<li><em>-Suffix</em>（可选）：连字符后跟字符串，表示预发布版本</li>
-</ul>
-<p>-Suffix-包开发人员通常遵循识别的命名约定：</p>
-<ul>
-<li><code>-alpha</code>：Alpha 版本，通常用于在制品和试验品。</li>
-<li><code>-beta</code>：Beta 版本，通常指可用于下一计划版本的功能完整的版本，但可能包含已知 bug。</li>
-<li><code>-rc</code>：候选发布，通常可能为最终（稳定）版本，除非出现重大 bug。</li>
-</ul>
-<h3 id="6、参考"><a href="#6、参考" class="headerlink" title="6、参考"></a>6、参考</h3><p><a href="https://learn.microsoft.com/zh-cn/nuget/what-is-nuget">NuGet 及其功能介绍 | Microsoft Learn</a></p>
-<p><a href="https://learn.microsoft.com/zh-cn/nuget/nuget-org/package-readme-on-nuget-org">NuGet.org 上的包自述文件 | Microsoft Learn</a></p>
-]]></content>
-      <categories>
-        <category>Nuget</category>
-      </categories>
-      <tags>
-        <tag>Nuget</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>领域驱动设计术语表</title>
-    <url>/2023/06/27/%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1%E6%9C%AF%E8%AF%AD%E8%A1%A8/</url>
-    <content><![CDATA[<p>[TOC]</p>
-<p>领域驱动设计（Domain-Driven Design，简称DDD）是一种软件开发方法论，它强调通过深入理解领域知识和业务需求，将领域模型贯穿于整个软件开发过程中。</p>
-<p>以下是一些领域驱动设计中常见的专业术语及其解释：</p>
-<p>战略和战术设计是站在DDD的角度进行划分。</p>
-<ul>
-<li><p>战略设计侧重于高层次、宏观上去划分和集成限界上下文，而战术设计则关注更具体使用建模工具来细化上下文。</p>
-</li>
-<li><p>战略设计的目标是建立一个一致、有界和可演化的领域模型，帮助团队理解业务需求，并为战术设计提供指导。</p>
-</li>
-<li><p>战术设计的目标是在特定的限界上下文中构建合理、可维护的领域模型，通过建立领域对象之间的关系和定义明确的职责，实现业务逻辑的有效组织和封装。</p>
-</li>
-<li><p>战略设计：战略设计关注的是整个领域的全局性问题，以及如何将业务需求、领域知识和软件设计相结合。</p>
-<ul>
-<li><p>通用语言：在领域驱动设计中，通用语言是指开发团队和领域专家之间共享的、统一的业务语言。</p>
-<p>通用语言在整个领域驱动设计过程中起着至关重要的作用。通过与领域专家密切合作，开发团队能够理解业务领域的专业术语、业务规则和概念。然后，开发团队将这些领域专有的语言转化为代码中的类、方法和属性等编程语言的元素。</p>
-<p>通用语言的使用有助于消除开发人员和领域专家之间的沟通障碍，确保开发人员对领域需求的准确理解。它还促进了领域模型的一致性，使得领域模型能够贯穿于整个软件开发过程中，从需求分析到代码实现。</p>
-<p>通用语言应该在限界上下文中得到充分运用，以确保在不同团队和组织之间的沟通和协作时能够保持一致。通过在代码中使用与通用语言相匹配的命名和概念，可以提高代码的可读性和可维护性，并增强团队之间的合作效率。</p>
-</li>
-<li><p>限界上下文（Bounded Context）：定义了业务领域的边界，并明确了在该上下文中使用的术语和概念。限界上下文帮助将大型领域划分为更小的、可管理的部分。</p>
-</li>
-<li><p>大胆的领域模型（Big Picture Model）：通过深入理解业务领域，建立起高层次、综合性的领域模型。这个模型用于指导整个软件系统的设计和演化。</p>
-</li>
-<li><p>上下文映射（Context Mapping）：指不同限界上下文之间的关系和交互方式。通过上下文映射，可以定义不同上下文之间的协作机制、数据交换方式等。</p>
-</li>
-<li><p>领域（Domain）：指特定业务领域或问题领域，是软件系统所涉及的核心概念和规则的集合。</p>
-<ul>
-<li><p>核心域（Core Domain）：核心域是指与业务的核心竞争力直接相关的部分。它包含了组织的关键业务流程、核心概念和业务规则。核心域通常是系统的重点关注区域，其中的领域模型和业务逻辑是复杂且变化频繁的。</p>
-<p>对核心域的设计和开发需要投入更多的精力和资源，以确保系统在这个领域具有竞争优势。通常会采用更深入的领域建模和领域驱动设计技术，以满足核心业务需求。</p>
-</li>
-<li><p>支撑域（Supporting Domain）：支撑域是指与核心域紧密相关，但不直接构成核心业务的领域部分。它为核心域提供支持和辅助功能，帮助核心业务的实现和运行。</p>
-<p>支撑域的特点是对业务的理解和变动要求较低，通常包括通用的基础设施、共享服务、安全性和认证等功能。支撑域的设计和开发可以借鉴成熟的技术和框架，以提高效率和稳定性。</p>
-<p>通用域（Generic Domain）：通用域是指与特定业务领域无关的通用功能和共享资源。它包括通用的业务功能、通用工具和通用库等。通用域通常是广泛应用于多个领域的通用概念和模式。</p>
-<p>通用域的设计和开发具有一定的通用性和重复性，可以通过复用现有的解决方案和组件来加快开发进度。通用域的设计应该具备可扩展性和灵活性，以满足不同领域的需求。</p>
-</li>
-<li><p>划分领域为核心域、支撑域和通用域有助于团队在系统架构和设计时有针对性地分配资源和关注点。核心域是系统的关键，需要更多的精力进行设计和演化；支撑域提供支持，减轻核心域的压力；而通用域提供了通用功能，可以在不同领域中复用。</p>
-</li>
-</ul>
-</li>
-<li></li>
-</ul>
-</li>
-<li><p>战术建模：战术设计关注的是在限界上下文内部对领域模型进行具体的建模和设计。</p>
-<ul>
-<li>领域层(Domain Layer)：在分层架构中负责领域逻辑的那部分设计和实现。领域层是在软件中用来表示领域模型的地方。</li>
-<li>领域模型（Domain Model）：是对领域的概念、行为和规则的抽象表示。它反映了领域的本质，并与业务专家的语言相对应。</li>
-<li>实体（Entity）：是具有唯一标识的领域对象，具有生命周期和状态变化。实体通常与业务中的具体事物相对应，如订单、用户等。</li>
-<li>值对象（Value Object）：是没有唯一标识的领域对象，其价值是由其属性的组合决定的。值对象通常用于描述不可变的概念，如日期、时间、货币等。</li>
-<li>聚合（Aggregate）：是一组相关对象的集合，其中一个对象是聚合根（Aggregate Root）。聚合根负责维护整个聚合的一致性和边界。</li>
-<li>聚合根（Aggregate Root）：是聚合中的一个对象，其他对象通过聚合根进行访问和操作。聚合根具有全局唯一的标识，并负责保证聚合的完整性。</li>
-<li>领域事件（Domain Event）：表示领域中发生的重要事情或状态改变的事件。领域事件可以用于解耦领域模型之间的交互，同时支持事件驱动架构。</li>
-<li>领域服务（Domain Service）：是一种无状态的操作，提供对领域中的特定行为或业务规则的操作。领域服务通常不持有状态，但可以操作领域对象。</li>
-<li>模块Model：一个抽象的系统，描述了领域的所选方面，可用于解决与该领域有关的问题。在领域驱动设计中，模块（Module）通常是基于业务功能或子领域来定义的。它可以包含一组聚合、实体、值对象、领域服务以及处理领域事件等。模块的目的是将相关的领域概念和行为封装在一起，提供高内聚、低耦合的设计。模块有助于组织和管理复杂的领域模型，使其更易于理解和维护。每个模块可以有自己的限界上下文、领域专家和开发团队，使其能够独立地开发、测试和演化。</li>
-</ul>
-</li>
-</ul>
-<p>领域驱动设计的四个层次（Layered Architecture）：包括用户界面层（User Interface Layer）、应用层（Application Layer）、领域层（Domain Layer）和基础设施层（Infrastructure Layer）。每个层次有不同的职责和关注点，</p>
-<ul>
-<li><p>分析模式（Analysis Patterns）：分析模式（Analysis Patterns）是在领域驱动设计中使用的一种方法，用于识别和描述在特定领域中常见的模式和概念。这些模式和概念反映了领域内的通用问题和解决方案，并帮助开发团队更好地理解领域需求。</p>
-<p>分析模式主要用于分析和理解领域，而不是直接用于具体的实现。它们通过描述领域中的重要概念、关系和行为，帮助开发团队和领域专家之间建立共享的语言和理解。</p>
-<p>以下是一些常见的分析模式：</p>
-<ol>
-<li>实体（Entity）：表示在领域中具有唯一标识的对象。实体具有自己的属性和行为，并与其他实体之间存在关系。</li>
-<li>值对象（Value Object）：表示在领域中具有特定属性但无需唯一标识的对象。值对象通常用于描述领域中的特定值或概念。</li>
-<li>聚合（Aggregate）：表示一组相关对象的集合，由一个聚合根（Aggregate Root）负责维护整个聚合的一致性和边界。</li>
-<li>仓储（Repository）：表示对领域对象进行持久化和检索的机制。仓储提供了一种访问领域对象的接口，隐藏了底层的数据访问细节。</li>
-<li>服务（Service）：表示领域中的操作和行为，这些操作不属于特定的实体或值对象，而是跨越多个对象的逻辑操作。</li>
-<li>事件（Event）：表示领域中发生的重要事情或状态改变。事件可以被用于触发其他领域对象的行为或通知其他上下文。</li>
-<li>规则（Rules）：表示领域中的业务规则和约束。规则定义了领域对象的行为和限制条件。</li>
-</ol>
-<p>分析模式帮助开发团队通过共享的领域语言和模式，更好地理解和解决特定领域中的问题。它们可以作为设计的参考和指导，帮助构建更符合业务需求的领域模型和软件系统。</p>
-</li>
-<li><p>深层模型(Deep Model)：深层模型通常是指对领域进行更加细致和全面的建模，包括考虑业务的各种细节、规则和约束，以及满足领域的复杂需求。它通常与大规模、复杂的领域相关，需要深入理解和处理领域中的各种关系和交互。</p>
-</li>
-</ul>
-<p>  深层模型的设计和实现需要结合领域专家的经验和领域知识，以及领域驱动设计中的建模技巧和方法。通过建立深层模型，可以更好地满足业务需求，提高系统的可靠性和灵活性。</p>
-<p>资源拓展：</p>
-<ol>
-<li><a href="https://domainstorytelling.org/">Domain Storytelling - Domain Storytelling</a></li>
-<li><a href="https://github.com/amerina/awesome-ddd">Awesome-DDD</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>DDD</category>
-      </categories>
-      <tags>
-        <tag>DDD</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>.NET Core API最佳实践</title>
-    <url>/2023/11/23/NET%20Core%20API%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</url>
-    <content><![CDATA[<p>[TOC]</p>
-<h3 id="1、紧密耦合"><a href="#1、紧密耦合" class="headerlink" title="1、紧密耦合"></a>1、紧密耦合</h3><p>​		 避免在控制器中声明特定的依赖项实例，应该使用依赖注入系统将依赖项注入到控制器中。后者避免了紧密耦合，更加易于维护和测试。</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">ApiController</span>]</span><br><span class="line">[<span class="meta">Route(<span class="string">&quot;[controller]&quot;</span>)</span>]</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">ProductController</span> : <span class="title">ControllerBase</span></span><br><span class="line">&#123;</span><br><span class="line">    ProductService productService = <span class="keyword">new</span> ProductService();</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">ApiController</span>]</span><br><span class="line">[<span class="meta">Route(<span class="string">&quot;[controller]&quot;</span>)</span>]</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">ProductController</span> : <span class="title">ControllerBase</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">readonly</span> ILogger&lt;ProductController&gt; _logger;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">readonly</span> IProductService _productService;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ProductController</span>(<span class="params">IProductService productService, ILogger&lt;ProductController&gt; logger</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">        _logger = logger;</span><br><span class="line">        _productService = productService;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="2、Mixing-Concerns功能混淆"><a href="#2、Mixing-Concerns功能混淆" class="headerlink" title="2、Mixing Concerns功能混淆"></a>2、Mixing Concerns功能混淆</h3><p>​		 控制器应专注于 HTTP 请求和生成响应。避免混合身份验证、授权或任何其他验证等问题，而是使用中间件或任何单独的类或服务。</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// Authentication and authorization logic here</span></span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    <span class="comment">// Data access logic here</span></span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    <span class="keyword">return</span> Ok(StatusCodes.Status201Created);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line">[<span class="meta">Authorize</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> Ok(StatusCodes.Status201Created);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="3、缺乏异常处理"><a href="#3、缺乏异常处理" class="headerlink" title="3、缺乏异常处理"></a>3、缺乏异常处理</h3><p>​		 避免在控制器中使用 try-catch 块，而是使用异常中间件来更好地处理异常以返回一般错误消息。</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid (Inconsistent error handling or try catch everywhere</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">try</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> Ok(StatusCodes.Status201Created);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">catch</span> (ProductValidationException ex)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> BadRequest(ex.Message);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">catch</span> (Exception ex)</span><br><span class="line">    &#123;</span><br><span class="line">        _logger.LogError(ex, <span class="string">&quot;An error occurred while creating the product.&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> StatusCode(StatusCodes.Status500InternalServerError);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer Exception filters or Middleware</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> Ok(StatusCodes.Status201Created);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="4、长时操作"><a href="#4、长时操作" class="headerlink" title="4、长时操作"></a>4、长时操作</h3><p>​		避免在控制器中执行长时间运行的操作。相反，应该把长时操作加入到后台运行的队列中，以避免系统停止服务。</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GenerateReport</span>(<span class="params">Report report</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// Long-running operation</span></span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> Ok(report);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GenerateReport</span>(<span class="params">Report report</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">var</span> taskIdentifier = <span class="keyword">await</span> _messageQueueService.EnqueueAsync(report);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> StatusCode(StatusCodes.Status202Accepted, taskIdentifier);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="5、缺少验证"><a href="#5、缺少验证" class="headerlink" title="5、缺少验证"></a>5、缺少验证</h3><p>​		输入验证对于确保系统的完整性和安全性至关重要。避免忽视控制器中的输入验证。</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// No validation</span></span><br><span class="line">    <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line">    <span class="keyword">return</span> Ok(StatusCodes.Status201Created);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">[FromBody] ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span> (!ModelState.IsValid)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> StatusCode(StatusCodes.Status400BadRequest, ModelState);                </span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line">    <span class="keyword">return</span> Ok(StatusCodes.Status201Created);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="6、直接访问数据库"><a href="#6、直接访问数据库" class="headerlink" title="6、直接访问数据库"></a>6、直接访问数据库</h3><p>​		避免直接访问数据库，而是使用服务或存储库将控制器与特定的数据访问技术分离。</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> IActionResult <span class="title">GetProduct</span>(<span class="params"><span class="built_in">int</span> productId</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">var</span> product = dbContext.Products.Find(productId);</span><br><span class="line">    <span class="keyword">return</span> Ok(product);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GetProduct</span>(<span class="params"><span class="built_in">int</span> productId</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">var</span> product = <span class="keyword">await</span> _productService.GetByIdAsync(productId);</span><br><span class="line">    <span class="keyword">return</span> Ok(product);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="7、缺乏缓存"><a href="#7、缺乏缓存" class="headerlink" title="7、缺乏缓存"></a>7、缺乏缓存</h3><p>​		在适当的时候实施缓存机制。利用缓存来提高性能并减少服务器上的负载。</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoi</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GetProducts</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">var</span> products = <span class="keyword">await</span> _productService.GetAllAsync();</span><br><span class="line">    <span class="keyword">return</span> Ok(products);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line">[<span class="meta">ResponseCache(Duration = 60)</span>] <span class="comment">// Cache the response for 60 seconds</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GetProducts</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">var</span> products = <span class="keyword">await</span> _productService.GetAllAsync();</span><br><span class="line">    <span class="keyword">return</span> Ok(products);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="8、缺乏身份验证和授权"><a href="#8、缺乏身份验证和授权" class="headerlink" title="8、缺乏身份验证和授权"></a>8、缺乏身份验证和授权</h3><p>​		对敏感操作实施身份验证和授权。相应地保护控制器和操作方法的安全访问。</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoi</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">DeleteProduct</span>(<span class="params"><span class="built_in">int</span> productId</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// No authentication or authorization</span></span><br><span class="line">    <span class="keyword">await</span> _productService.DeleteAsync(productId);</span><br><span class="line">    <span class="keyword">return</span> StatusCode(StatusCodes.Status200OK);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line">[<span class="meta">Authorize(Roles = <span class="string">&quot;Admin&quot;</span>)</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">DeleteProduct</span>(<span class="params"><span class="built_in">int</span> productId</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">await</span> _productService.DeleteAsync(productId);</span><br><span class="line">    <span class="keyword">return</span> StatusCode(StatusCodes.Status200OK);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="9、逻辑过多"><a href="#9、逻辑过多" class="headerlink" title="9、逻辑过多"></a>9、逻辑过多</h3><p>​		避免过多的逻辑。控制器应主要负责处理传入请求和返回响应。对于任何复杂的逻辑，应使用单独的实用程序或服务。</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GetProducts</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// Complex business logic here</span></span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    <span class="keyword">return</span> Ok(products);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GetProducts</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">var</span> products = <span class="keyword">await</span> _productService.GetAllAsync();</span><br><span class="line">    <span class="keyword">return</span> Ok(products);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="10、忽略-HTTP-动词实现RESTful-原则"><a href="#10、忽略-HTTP-动词实现RESTful-原则" class="headerlink" title="10、忽略 HTTP 动词实现RESTful 原则"></a>10、忽略 HTTP 动词实现RESTful 原则</h3><p>​		ASP.NET Core 中的控制器应遵循 RESTful 架构的原则。避免使用不符合 RESTful 约定的不当 HTTP 谓词或操作。使用适当的 HTTP 动词（GET、POST、PUT、DELETE 等）。</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> IActionResult <span class="title">DeleteProduct</span>(<span class="params"><span class="built_in">int</span> productId</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">HttpDelete(<span class="string">&quot;/api/products/&#123;id&#125;&quot;</span>)</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> IActionResult <span class="title">DeleteProduct</span>(<span class="params"><span class="built_in">int</span> productId</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="11、缺乏正确的路由"><a href="#11、缺乏正确的路由" class="headerlink" title="11、缺乏正确的路由"></a>11、缺乏正确的路由</h3><p>​		确保控制器已正确路由以处理传入请求。避免不一致或不明确的路由配置。</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> IActionResult <span class="title">Get</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">HttpGet(<span class="string">&quot;api/products&quot;</span>)</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> IActionResult <span class="title">Get</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="12、缺少日志"><a href="#12、缺少日志" class="headerlink" title="12、缺少日志"></a>12、缺少日志</h3><p>​		日志记录是应用程序开发的一个非常关键的方面，因为它有助于在代码执行期间跟踪重要事件、条件和错误。使用中间件或操作筛选器捕获相关信息。</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span> (someSimpleCondition)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">// ...</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line">    <span class="keyword">return</span> Ok();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">     <span class="keyword">if</span> (someSimpleCondition)</span><br><span class="line">     &#123;</span><br><span class="line">        <span class="comment">// ...</span></span><br><span class="line">        _logger.LogWarning(<span class="string">&quot;Warning: Some simple condition is met.&quot;</span>); <span class="comment">// Log a warning</span></span><br><span class="line">     &#125;</span><br><span class="line"></span><br><span class="line">     <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line">     <span class="keyword">return</span> Ok();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p>参考：</p>
-<ol>
-<li><a href="https://www.linkedin.com/pulse/12-bad-practices-avoid-aspnet-core-api-controllers-muhammad-kamran/">12 Bad Practices to Avoid in ASP.NET Core API Controllers</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>.NETCore</category>
-      </categories>
-      <tags>
-        <tag>.NETCore,API</tag>
       </tags>
   </entry>
   <entry>
@@ -1365,6 +1072,708 @@
       </categories>
       <tags>
         <tag>.NETCore</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Domain Driven Design Glossary</title>
+    <url>/2023/06/27/Domain%20Driven%20Design%20Glossary/</url>
+    <content><![CDATA[<p>[TOC]</p>
+<p>领域驱动设计（Domain-Driven Design，简称DDD）是一种软件开发方法论，它强调通过深入理解领域知识和业务需求，将领域模型贯穿于整个软件开发过程中。</p>
+<p>以下是一些领域驱动设计中常见的专业术语及其解释：</p>
+<p>战略和战术设计是站在DDD的角度进行划分。</p>
+<ul>
+<li><p>战略设计侧重于高层次、宏观上去划分和集成限界上下文，而战术设计则关注更具体使用建模工具来细化上下文。</p>
+</li>
+<li><p>战略设计的目标是建立一个一致、有界和可演化的领域模型，帮助团队理解业务需求，并为战术设计提供指导。</p>
+</li>
+<li><p>战术设计的目标是在特定的限界上下文中构建合理、可维护的领域模型，通过建立领域对象之间的关系和定义明确的职责，实现业务逻辑的有效组织和封装。</p>
+</li>
+<li><p>战略设计：战略设计关注的是整个领域的全局性问题，以及如何将业务需求、领域知识和软件设计相结合。</p>
+<ul>
+<li><p>通用语言：在领域驱动设计中，通用语言是指开发团队和领域专家之间共享的、统一的业务语言。</p>
+<p>通用语言在整个领域驱动设计过程中起着至关重要的作用。通过与领域专家密切合作，开发团队能够理解业务领域的专业术语、业务规则和概念。然后，开发团队将这些领域专有的语言转化为代码中的类、方法和属性等编程语言的元素。</p>
+<p>通用语言的使用有助于消除开发人员和领域专家之间的沟通障碍，确保开发人员对领域需求的准确理解。它还促进了领域模型的一致性，使得领域模型能够贯穿于整个软件开发过程中，从需求分析到代码实现。</p>
+<p>通用语言应该在限界上下文中得到充分运用，以确保在不同团队和组织之间的沟通和协作时能够保持一致。通过在代码中使用与通用语言相匹配的命名和概念，可以提高代码的可读性和可维护性，并增强团队之间的合作效率。</p>
+</li>
+<li><p>限界上下文（Bounded Context）：定义了业务领域的边界，并明确了在该上下文中使用的术语和概念。限界上下文帮助将大型领域划分为更小的、可管理的部分。</p>
+</li>
+<li><p>大胆的领域模型（Big Picture Model）：通过深入理解业务领域，建立起高层次、综合性的领域模型。这个模型用于指导整个软件系统的设计和演化。</p>
+</li>
+<li><p>上下文映射（Context Mapping）：指不同限界上下文之间的关系和交互方式。通过上下文映射，可以定义不同上下文之间的协作机制、数据交换方式等。</p>
+</li>
+<li><p>领域（Domain）：指特定业务领域或问题领域，是软件系统所涉及的核心概念和规则的集合。</p>
+<ul>
+<li><p>核心域（Core Domain）：核心域是指与业务的核心竞争力直接相关的部分。它包含了组织的关键业务流程、核心概念和业务规则。核心域通常是系统的重点关注区域，其中的领域模型和业务逻辑是复杂且变化频繁的。</p>
+<p>对核心域的设计和开发需要投入更多的精力和资源，以确保系统在这个领域具有竞争优势。通常会采用更深入的领域建模和领域驱动设计技术，以满足核心业务需求。</p>
+</li>
+<li><p>支撑域（Supporting Domain）：支撑域是指与核心域紧密相关，但不直接构成核心业务的领域部分。它为核心域提供支持和辅助功能，帮助核心业务的实现和运行。</p>
+<p>支撑域的特点是对业务的理解和变动要求较低，通常包括通用的基础设施、共享服务、安全性和认证等功能。支撑域的设计和开发可以借鉴成熟的技术和框架，以提高效率和稳定性。</p>
+<p>通用域（Generic Domain）：通用域是指与特定业务领域无关的通用功能和共享资源。它包括通用的业务功能、通用工具和通用库等。通用域通常是广泛应用于多个领域的通用概念和模式。</p>
+<p>通用域的设计和开发具有一定的通用性和重复性，可以通过复用现有的解决方案和组件来加快开发进度。通用域的设计应该具备可扩展性和灵活性，以满足不同领域的需求。</p>
+</li>
+<li><p>划分领域为核心域、支撑域和通用域有助于团队在系统架构和设计时有针对性地分配资源和关注点。核心域是系统的关键，需要更多的精力进行设计和演化；支撑域提供支持，减轻核心域的压力；而通用域提供了通用功能，可以在不同领域中复用。</p>
+</li>
+</ul>
+</li>
+<li></li>
+</ul>
+</li>
+<li><p>战术建模：战术设计关注的是在限界上下文内部对领域模型进行具体的建模和设计。</p>
+<ul>
+<li>领域层(Domain Layer)：在分层架构中负责领域逻辑的那部分设计和实现。领域层是在软件中用来表示领域模型的地方。</li>
+<li>领域模型（Domain Model）：是对领域的概念、行为和规则的抽象表示。它反映了领域的本质，并与业务专家的语言相对应。</li>
+<li>实体（Entity）：是具有唯一标识的领域对象，具有生命周期和状态变化。实体通常与业务中的具体事物相对应，如订单、用户等。</li>
+<li>值对象（Value Object）：是没有唯一标识的领域对象，其价值是由其属性的组合决定的。值对象通常用于描述不可变的概念，如日期、时间、货币等。</li>
+<li>聚合（Aggregate）：是一组相关对象的集合，其中一个对象是聚合根（Aggregate Root）。聚合根负责维护整个聚合的一致性和边界。</li>
+<li>聚合根（Aggregate Root）：是聚合中的一个对象，其他对象通过聚合根进行访问和操作。聚合根具有全局唯一的标识，并负责保证聚合的完整性。</li>
+<li>领域事件（Domain Event）：表示领域中发生的重要事情或状态改变的事件。领域事件可以用于解耦领域模型之间的交互，同时支持事件驱动架构。</li>
+<li>领域服务（Domain Service）：是一种无状态的操作，提供对领域中的特定行为或业务规则的操作。领域服务通常不持有状态，但可以操作领域对象。</li>
+<li>模块Model：一个抽象的系统，描述了领域的所选方面，可用于解决与该领域有关的问题。在领域驱动设计中，模块（Module）通常是基于业务功能或子领域来定义的。它可以包含一组聚合、实体、值对象、领域服务以及处理领域事件等。模块的目的是将相关的领域概念和行为封装在一起，提供高内聚、低耦合的设计。模块有助于组织和管理复杂的领域模型，使其更易于理解和维护。每个模块可以有自己的限界上下文、领域专家和开发团队，使其能够独立地开发、测试和演化。</li>
+</ul>
+</li>
+</ul>
+<p>领域驱动设计的四个层次（Layered Architecture）：包括用户界面层（User Interface Layer）、应用层（Application Layer）、领域层（Domain Layer）和基础设施层（Infrastructure Layer）。每个层次有不同的职责和关注点，</p>
+<ul>
+<li><p>分析模式（Analysis Patterns）：分析模式（Analysis Patterns）是在领域驱动设计中使用的一种方法，用于识别和描述在特定领域中常见的模式和概念。这些模式和概念反映了领域内的通用问题和解决方案，并帮助开发团队更好地理解领域需求。</p>
+<p>分析模式主要用于分析和理解领域，而不是直接用于具体的实现。它们通过描述领域中的重要概念、关系和行为，帮助开发团队和领域专家之间建立共享的语言和理解。</p>
+<p>以下是一些常见的分析模式：</p>
+<ol>
+<li>实体（Entity）：表示在领域中具有唯一标识的对象。实体具有自己的属性和行为，并与其他实体之间存在关系。</li>
+<li>值对象（Value Object）：表示在领域中具有特定属性但无需唯一标识的对象。值对象通常用于描述领域中的特定值或概念。</li>
+<li>聚合（Aggregate）：表示一组相关对象的集合，由一个聚合根（Aggregate Root）负责维护整个聚合的一致性和边界。</li>
+<li>仓储（Repository）：表示对领域对象进行持久化和检索的机制。仓储提供了一种访问领域对象的接口，隐藏了底层的数据访问细节。</li>
+<li>服务（Service）：表示领域中的操作和行为，这些操作不属于特定的实体或值对象，而是跨越多个对象的逻辑操作。</li>
+<li>事件（Event）：表示领域中发生的重要事情或状态改变。事件可以被用于触发其他领域对象的行为或通知其他上下文。</li>
+<li>规则（Rules）：表示领域中的业务规则和约束。规则定义了领域对象的行为和限制条件。</li>
+</ol>
+<p>分析模式帮助开发团队通过共享的领域语言和模式，更好地理解和解决特定领域中的问题。它们可以作为设计的参考和指导，帮助构建更符合业务需求的领域模型和软件系统。</p>
+</li>
+<li><p>深层模型(Deep Model)：深层模型通常是指对领域进行更加细致和全面的建模，包括考虑业务的各种细节、规则和约束，以及满足领域的复杂需求。它通常与大规模、复杂的领域相关，需要深入理解和处理领域中的各种关系和交互。</p>
+</li>
+</ul>
+<p>  深层模型的设计和实现需要结合领域专家的经验和领域知识，以及领域驱动设计中的建模技巧和方法。通过建立深层模型，可以更好地满足业务需求，提高系统的可靠性和灵活性。</p>
+<p>资源拓展：</p>
+<ol>
+<li><a href="https://domainstorytelling.org/">Domain Storytelling - Domain Storytelling</a></li>
+<li><a href="https://github.com/amerina/awesome-ddd">Awesome-DDD</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>DDD</category>
+      </categories>
+      <tags>
+        <tag>DDD</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Macola Domain Knowledge</title>
+    <url>/2023/11/20/Macola%20Domain%20Knowledge/</url>
+    <content><![CDATA[<h3 id="Key-Words"><a href="#Key-Words" class="headerlink" title="Key Words"></a>Key Words</h3><table>
+<thead>
+<tr>
+<th>AP–Accounts Payable</th>
+<th>应付账款</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>AR–Accounts receivable</td>
+<td>应收账款</td>
+</tr>
+<tr>
+<td>BB-Bank account book</td>
+<td>银行账簿</td>
+</tr>
+<tr>
+<td>GL-General ledger management</td>
+<td>总账管理</td>
+</tr>
+<tr>
+<td>IM-Inventory management</td>
+<td>库存管理</td>
+</tr>
+<tr>
+<td>OE-Order management</td>
+<td>订单管理</td>
+</tr>
+<tr>
+<td>PO-purchase order</td>
+<td>采购订单</td>
+</tr>
+<tr>
+<td>SM-System Management</td>
+<td>系统管理</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="Credit-Memo-And-Debit-Memo"><a href="#Credit-Memo-And-Debit-Memo" class="headerlink" title="Credit Memo And Debit Memo"></a>Credit Memo And Debit Memo</h3><p>在 Macola ERP 中，Credit Memo（贷项通知单）和 Debit Memo（借项通知单）是两种常见的会计术语，用于记录销售和采购交易中的调整。</p>
+<p>Credit Memo（贷项通知单）通常用于以下情况：</p>
+<ol>
+<li>退货：当客户退回已购买的产品时，您可以发出贷项通知单来退还客户的付款。</li>
+<li>价格调整：如果您需要调整产品的销售价格，您可以发出贷项通知单来减少客户的应付款项。</li>
+<li>优惠折扣：如果您给客户提供了折扣或优惠，您可以发出贷项通知单来减少客户的应付款项。</li>
+</ol>
+<p>Debit Memo（借项通知单）通常用于以下情况：</p>
+<ol>
+<li>补发货物：当您漏发了产品或提供了不完整的订单时，您可以发出借项通知单来增加客户的应付款项。</li>
+<li>价格调整：如果您需要调整产品的采购价格，您可以发出借项通知单来增加供应商的应付款项。</li>
+<li>罚款或违约金：如果供应商或客户未履行合同条款，您可以发出借项通知单来增加对方的应付款项。</li>
+</ol>
+<p>总结起来，<strong>Credit Memo（贷项通知单）用于减少客户的应付款项，而 Debit Memo（借项通知单）用于增加客户或供应商的应付款项。</strong>这些通知单可以帮助您记录交易的调整和变更，确保账目的准确性。</p>
+<h3 id="Accounts-Receivable-And-Accounts-Payable"><a href="#Accounts-Receivable-And-Accounts-Payable" class="headerlink" title="Accounts Receivable And Accounts Payable"></a>Accounts Receivable And Accounts Payable</h3><p>在 Macola ERP 中，AR 和 AP 是会计术语，分别代表应收账款（Accounts Receivable）和应付账款（Accounts Payable）。</p>
+<p>AR（应收账款）是指企业向客户销售商品或提供服务后尚未收到的付款金额。当您向客户发出销售发票时，相应的金额会记录在应收账款中。AR 反映了客户欠您的款项，是您从客户那里应收的资金。</p>
+<p>AP（应付账款）是指企业购买商品或接受服务后尚未支付的金额。当您从供应商收到采购发票时，相应的金额会记录在应付账款中。AP 反映了您欠供应商的款项，是您应付给供应商的资金。</p>
+<p>AR 和 AP 是财务管理中重要的指标，可以帮助企业跟踪和管理与客户和供应商之间的财务关系。通过监控 AR 和 AP 的变化，您可以了解企业的应收款项和应付款项的状况，并及时采取措施来确保资金流动的正常运作。</p>
+<h3 id="Accounts-Payable"><a href="#Accounts-Payable" class="headerlink" title="Accounts Payable"></a>Accounts Payable</h3><h3 id="BB-Bank-account-book"><a href="#BB-Bank-account-book" class="headerlink" title="BB-Bank account book"></a>BB-Bank account book</h3><p> “Bank Account Book”，即银行账户簿。银行账户簿是记录企业或个人在银行中的账户活动的记录。它包含了存款、取款、利息、手续费等与银行账户相关的交易信息。</p>
+<p>在 Macola ERP 中，您可以使用银行账户簿来跟踪和管理与银行账户相关的财务活动。这包括记录存款、提现、支票、银行费用等。通过维护准确的银行账户簿，您可以确保与银行账户的余额和交易记录一致，并进行有效的现金管理和对账操作。</p>
+<h3 id="GL-Account、Cost-Unit、Cost-Center"><a href="#GL-Account、Cost-Unit、Cost-Center" class="headerlink" title="GL Account、Cost Unit、Cost Center"></a>GL Account、Cost Unit、Cost Center</h3><p>在 Macola ERP 中，”GL Account” 是指 “General Ledger Account”，即总账科目。总账科目是用于记录和跟踪企业财务交易的分类账户。它们用于汇总和组织财务信息，以便进行报表编制、财务分析和决策制定。</p>
+<p>总账科目可以代表不同类型的资产、负债、所有权权益、收入和费用。每个总账科目都有一个唯一的编码和名称，用于识别和区分不同的科目。例如，现金、应收账款、应付账款、销售收入、采购成本等都可以是总账科目。</p>
+<p>另外，”Cost Unit” 和 “Cost Center” 是与成本管理相关的概念。”Cost Unit” 是指成本单位，它可以是产品、项目、部门或其他任何可以衡量成本的实体。”Cost Center” 是指成本中心，它是一个特定部门、团队或业务单位，负责管理和控制相关成本。</p>
+<p>在 Macola ERP 中，您可以使用总账科目、成本单位和成本中心来跟踪和管理企业的财务和成本信息。这些概念相互关联，帮助您进行准确的财务报告、成本分析和预算控制。</p>
+<h3 id="Closing-of-account-period"><a href="#Closing-of-account-period" class="headerlink" title="Closing of account period"></a>Closing of account period</h3><p>在 Macola ERP 中，”账期关闭”是指在特定时间段结束后，对财务和会计模块中的账期进行结算和关闭的过程。账期关闭的目的是确保财务数据的准确性和完整性，以便进行财务报表的生成和分析。</p>
+<p>账期关闭通常涉及以下步骤：</p>
+<ol>
+<li><p>结账准备：在进行账期关闭之前，需要进行一些准备工作。这包括确认所有财务交易都已正确记录和处理，检查余额和科目的准确性，处理未对账的项目，确保凭证和账户的一致性等。</p>
+</li>
+<li><p>结账操作：一旦准备工作完成，可以进行账期关闭操作。这通常由财务或会计人员在 Macola ERP 中执行。在进行账期关闭时，系统会自动进行一系列的处理，如计算余额、更新账期信息、生成结账报表等。</p>
+</li>
+<li><p>结账报表：账期关闭后，系统会生成一些结账报表，用于展示账期内的财务数据和统计信息。这些报表可以包括利润表、资产负债表、现金流量表等财务报表，以及其他统计报表和分析工具。</p>
+</li>
+<li><p>锁定账期：一旦账期关闭和报表生成完成，通常会对该账期进行锁定，防止后续的修改或录入操作对已结账期的数据产生影响。这可以确保账期的数据不会被意外更改，保持数据的完整性和可追溯性。</p>
+</li>
+</ol>
+<p>通过账期关闭的操作，企业可以确保财务数据的准确性和一致性，为管理层和利益相关者提供可靠的财务信息，并支持决策和报告的准备工作。这是财务和会计管理中的重要步骤，有助于维护财务数据的可靠性和可信度。</p>
+]]></content>
+      <categories>
+        <category>Macola ERP</category>
+      </categories>
+      <tags>
+        <tag>Macola ERP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Make Your Time Valuable</title>
+    <url>/2023/11/28/Make%20Your%20Time%20Valuable/</url>
+    <content><![CDATA[<ul>
+<li>你是否经常感觉自己有很多想做的事情，但总是拖延着难以开始？</li>
+<li>你是否明知道接下来有重要的事，但依旧刷视频、玩手机，一边心里牵挂着要做的事，一边又心怀愧疚地继续娱乐？</li>
+<li>你是否时常想要摆脱这种状态，制定一堆计划，却在第一天就败下阵来，然后开启长时间的颓废与迷茫？</li>
+<li>你是否经常感到焦虑、迷茫，觉得自己一事无成？</li>
+</ul>
+<p>你是否想要改变？</p>
+<p>学习时间管理关键是要有行动。我分享一下我个人系统提升自己的时间管理能力的方法。</p>
+<ol>
+<li>时间日志。坚持每天写时间日志，记录自己时间的花费情况，分析不足。</li>
+<li>做好计划。小事要计划，大事要谋划。做每件事前都要进行思考，怎么行动，无计划不行动，有计划则认真执行。</li>
+<li>明确目标。要学会把模糊的梦想变成清晰的目标，制订目标要考虑自己的行业和特长，同时也要考虑目标的连贯性，坚持坚持再坚持。</li>
+<li>四象限法则。通过重要性和紧急性两个维护，把事情划分为重要且紧急、重要不紧急、紧急不重要、不紧急不重要四个类别，优先做重要不紧急的事情。</li>
+<li>二八法则。运用二八法则（或者叫二八定律），把80%的时间用在重要的20%的事情上，以期产生80%的效果。</li>
+<li>学会授权： 我们或多或少都遇过多得超出承受范围的任务， 并因此压力重重、精疲力竭。 委派任务并不是逃避责任，而是一种管理技巧。 根据下属各自的优势长处，你可以考虑把任务分派给他们。</li>
+<li>懂得拒绝： 如果感到工作量太大，可以尝试委婉拒绝额外工作。 接受额外工作前先看下自己的任务清单吧。</li>
+<li>杜绝拖延：拖延是严重影响效率的一大恶因，既浪费时间又耗费精力，无论如何都要杜绝，否则会极大危害你的工作和生活。</li>
+</ol>
+<h3 id="1、为什么要做时间管理？"><a href="#1、为什么要做时间管理？" class="headerlink" title="1、为什么要做时间管理？"></a>1、为什么要做时间管理？</h3><ul>
+<li><p>规划人生方向，把控自己的生活</p>
+<p>时间管理要求我们充分利用时间，为自己设定目标、制定计划，并根据计划付出行动、取得成功。</p>
+<p>也就是说，我们对自己想要实现的人生有一定的方向感，而这个方向感正是解决我们迷茫的因素之一，它能帮助我们更好地把控生活，做到心中有数。</p>
+</li>
+<li><p>提高做事的效率</p>
+<p>在没有进行时间管理的情况下，我们脑子里可能装有很多事情，在做一件事的时候心里常常会想着另外的事情，导致两件事都不能高效完成；</p>
+<p>也有可能分不清事情的轻重缓急，造成不必要的麻烦。而时间管理，则可以帮助我们收集、整理并规划所有待办事项，培养我们的专注度，提高我们做事的效率。</p>
+</li>
+<li><p>为自己创造价值和更多的可能性</p>
+<p>时间是很公平的，每个人一天都有 24 个小时，有的人可以充分利用这些时间，去学习成长，培养兴趣，或是旅游出行；<br>有的人一有空闲时间，只会看剧、游戏或者刷短视频。每个人都有各自不同的人生追求，我们无法去评判何种人生更加成功，但做好时间管理，至少可以让我们成为时间的主人，为自己创造更多价值和更多的可能</p>
+</li>
+</ul>
+<h3 id="2、时间管理方法"><a href="#2、时间管理方法" class="headerlink" title="2、时间管理方法"></a>2、时间管理方法</h3><ol>
+<li><p><a href="https://www.bilibili.com/video/BV1wE411176Q?p=1">GTD(Getting Things Done)-把事情做完</a></p>
+<p>概念 GTD：List需要做的事情,集中精力在正在完成的事情上</p>
+<p><strong>GTD 工作流程：</strong></p>
+<p>GTD 分为收集、整理、组织、回顾、执行五个步骤。</p>
+<ol>
+<li>第一步，我们需要将自己脑海中想到的事情全部收集起来</li>
+<li>第二步，将收集箱清空，将收集箱里面的事务分配到不同的板块：对于无法转化为行动的事情，如果没有用，则删除；如果将来也许会用到，可以放入自己的备忘录；如果可以作为资料参考，则放入自己的参考资料库。对于可以转化为行动的事情，如果两分钟内可以完成的话就立即去做；如果两分钟内不能完成的话，要么委派他人完成，要么延迟处理。延迟处理的事项中，有特定时间的放入日程中，其他的作为待办事项，但需要随时关注并不断指定时间去完成。左边的部分属于组织与回顾，我们需要定期进行总结；关注事项进度；以及为未完成的事项规划时间等。</li>
+</ol>
+<p><a href="https://mubu.com/doc/6vQJPom7iH6">GTD搞定-Getting Things Done</a></p>
+</li>
+<li><p><a href="https://share.mubu.com/doc/5kwb6KqXOX6">ZTD(Zen To Done )-轻松搞定</a></p>
+<p>ZTD 是轻松搞定，Zen To Done 的简称，可以理解为简化版的 GTD，但两者的侧重点有所不同。</p>
+<p><strong>ZTD 保持了 GTD 系统中收集信息和规划行动的方法，但更关注的是行动本身。</strong>怎么才能最大程度地简化计划系统呢？答案就是培养习惯，这也是 ZTD 的核心所在。</p>
+<p><strong>ZTD工作流程：</strong></p>
+<p>ZTD 完整的组成有十个习惯，分别是：收集、处理、计划、行动、建立简单可信的清单系统、整理、回顾、简化、设定习惯和找到热情。</p>
+<ol>
+<li>收集：随时记录的习惯</li>
+<li>处理：要求快速决定收集箱中的事项，并从中找到重点</li>
+<li>计划：指设定每天或每周要做的事</li>
+<li>行动：专注执行计划</li>
+<li>建立简单可信的清单系统：指的是要有归档思维，并形成正确可信的系统</li>
+<li>整理：指保持整洁、使用标签，让你能迅速找到任何你想找到的东西</li>
+<li>回顾：则是对目标的强化，同时关注你的任务、清单和收集箱</li>
+<li>简化：是说要尽量减少你的任务清单，删除不必要的事项，并抽出时间集中处理待办</li>
+<li>设定习惯：指的是对自己的任务进行梳理，找出一些规律性的、周期性的事务，形成习惯</li>
+<li>找到热情：最后就是找到你热爱的东西，让你保持动力。</li>
+</ol>
+<p>ZTD 并不要求我们一次做到这十个习惯，ZTD 讲究循序渐进，每次养成一个习惯就好。<br>如果还是觉得麻烦，可以使用 ZTD 精简版，<strong>精简版的 ZTD 只包含四个习惯：收集、处理、计划和行动。</strong></p>
+<p>事实上，完整版的 ZTD 的十个习惯可以看做是对这四个习惯的补充，因此可以选择先培养精简版里面的习惯，之后再根据自己的实际需求培养其他的六个习惯。</p>
+</li>
+<li><p>番茄工作法</p>
+<p>番茄工作法是简单易行的时间管理方法，由弗朗西斯科·西里洛于 1992 年创立。使用番茄工作法需准备的工具有：一个番茄计时器，三张表格。</p>
+<p><strong>使用番茄工作法需遵守的规则如下：</strong></p>
+<ol>
+<li>一个番茄时间共 30 分钟，25 分钟工作,5 分钟休息</li>
+<li>一个番茄时间是不可分割的</li>
+<li>每 4 个番茄时间后，停止工作，进行一次较长时间的休息，大约 15 到 30 分钟</li>
+<li>完成一个任务就划掉一个。</li>
+</ol>
+<p><strong>番茄工作法的精髓在于：</strong></p>
+<ol>
+<li>一次只做一件事，保持专注；</li>
+<li>按照轻重缓急程度分解目标任务，高效完成；</li>
+<li>做完一件划掉一件，增加成就感，避免半途而废；</li>
+<li>整理杂乱无序的工作事项，克服拖延症；</li>
+<li>持续性改善时间管理能力，让优秀成为一种习惯。</li>
+</ol>
+<p>番茄工作法可以帮助我们轻松地提高自己的时间管理能力，让每一项任务的结果都能达到预期。</p>
+<p><strong>番茄工作法流程：</strong></p>
+<ol>
+<li>设定日平均番茄数</li>
+<li>活动清单：记录全部待办事项,为每个待办事项预估番茄钟个数</li>
+<li>今日清单：从活动清单中挑选今日事项,不要超过设定的日平均番茄钟</li>
+<li>番茄钟执行：25min工作+5min休息</li>
+<li>长时休息：每四个番茄钟左右</li>
+<li>记录分析番茄钟实际执行效果</li>
+<li>记录改善建议</li>
+</ol>
+<p>我们首先需要给自己设定一个每天要完成的平均番茄钟数，每天早晨先整理并记录自己的活动清单，并为每一项任务预估一个所需要的的番茄钟个数，注意这里的活动清单包含全部的待办事项；</p>
+<p>然后我们要从活动清单中挑选出今日的待办事项，放到今日清单中，为了保证自己能完成任务，我们今日清单中的待办事项所需番茄钟个数尽量不要超过自己设定的其平均番茄数；</p>
+<p>接下来就是番茄钟执行了，在执行的过程中尽量保证不被打断，否则番茄钟作废，如果是计划之外的事情导致番茄钟中断，如果该事项需要立即执行，则记录中断原因，如果该事项不必立即执行，可以将其记录并添加到活动清单当中；</p>
+<p>每四个番茄钟左右，需要进行一次长时休息，以保证良好的身体状态，休息之后则进行下一个番茄钟；</p>
+<p>一天结束之前，记录并分析自己的番茄钟完成情况，并不断改善进步，提高番茄钟的预估准确度以及执行效率。这样番茄钟工作法就可以正向循环了。</p>
+</li>
+<li><p>时间统计法</p>
+<p>时间统计法核心在于坚持记录并统计自己的时间成本，并定期做总结复盘</p>
+<p>时间统计法要点：</p>
+<p>柳比歇夫每天都会记录自己的时间开销，载体为日记本，每天按照“日期+事件+花费时间”的形式记录自己的时间，大约5-7行文字。</p>
+<p>我们在记录时间的时候，应该注意一个要点：</p>
+<ul>
+<li><strong>我们应当有自己的目标，而不是单纯地记流水账，因为记录时间是为了让我们能够更好地掌控时间，从而实现自己的目标</strong></li>
+</ul>
+<p>另外值得注意的有：</p>
+<ol>
+<li>对工作任务分类记录时间，比如，记录自己用在写作方面的时间、学习提升的时间、科研活动的时间等</li>
+<li>注重有效工作时间，同时要保证自己休息，一累则马上去休息</li>
+<li>定期总结，实现对时间的精准分配，提高自己对时间的把控力。</li>
+</ol>
+</li>
+<li><p>时间四象限法</p>
+<p>时间四象限法是美国的管理学家科维提出的一个时间管理的理论，他把工作按照重要和紧急两个不同的程度进行了划分，基本上可以分为四个象限：</p>
+<ul>
+<li><p>紧急重要：重要紧急的事项要立即亲自去做</p>
+<p>如客户投诉、即将到期的任务、财务危机等</p>
+</li>
+<li><p>重要不紧急：重要不紧急的事项需要专门抽出时间有计划地去做</p>
+<p>如建立人际关系、人员培训、制订防范措施等</p>
+</li>
+<li><p>紧急不重要：紧急不重要的事项可以稍后做或者委派他人</p>
+<p>如电话铃声、不速之客、部门会议等</p>
+</li>
+<li><p>不紧急不重要：不紧急不重要的事项则尽量不做</p>
+<p>如上网、闲谈、邮件、写博客等。这种把工作按照重要和紧急两个不同的维度进行时间划分的时间管理方法就是时间四象限法。</p>
+</li>
+</ul>
+<p>处理顺序：</p>
+<p>时间四象限法推荐的事项处理顺序如下：先处理紧急重要的，接着是重要不紧急的，再到紧急不重要的，最后才是不紧急不重要的。</p>
+<p>有的人认为时间四象限法不科学，争议点主要在于紧急不重要事项与重要不紧急事项之间的处理顺序上，他们认为虽然有些事不重要，但由于其紧急性也需要及时处理，如给猫购买猫粮；而重要不紧急的事情通常需要耗费很大的精力去完成，如学习 JAVA；倘若等到学完 JAVA 再购买猫粮，猫早就被饿死了。</p>
+<p>但其实，时间四象限法可以为我们的时间管理提供正向的帮助，它提醒我们要警惕那些紧急不重要的事情，我们容易被这样的事项蒙蔽，导致整天都很忙碌，可却没有得到实际性的提升；它也提醒我们要重点关注那些重要不紧急的事项，这样的事项最容易被我们遗忘，但确是我们提升的最好路径，如学习剪辑课程；坚持写文章；理财等。</p>
+</li>
+<li><p>一万小时理论</p>
+<ul>
+<li><p>一万小时定律：要想将一门技能熟练掌握，需要做的就是反复刻意练习</p>
+<p>一万小时定律是作家格拉德威尔在《异类》一书中指出的定律。<br>主要思想在于：人们眼中的天才之所以卓越非凡，并非天资超人一等，而是付出了持续不断的努力。</p>
+<p>马尔科姆·格拉德韦尔的《异类》与丹尼尔·科伊尔的《一万小时天才理论》，其核心都是“一万小时定律”，就是不管你做什么事情，只要坚持一万小时，基本上都可以成为该领域的专家。</p>
+<p>与此相通的另一本书籍《刻意练习》，也是讲的这个道理：要想将一门技能熟练掌握，需要做的就是反复刻意练习，现实中基本没有什么天才可以不需要练习就取得成功。</p>
+</li>
+<li><p>理论核心：</p>
+<p>而在我们的实际操作中，核心就在于为自己设定目标，即你想要熟练掌握的技能，然后利用空余时间去练习，并记录自己的学习或练习时长。</p>
+<p>注意：不一定要设置为一万小时，对于一些小目标可以设定200或300小时，因为并不是所有技能你都想做到专家的状态，但是一旦你为这些目标设定了时间，你就会有一种方向感和从容感，知道自己的每一步都是在向着目标前进，自然就会有一种对时间的把控感。</p>
+<ul>
+<li>核心就在于为自己设定目标，即你想要熟练掌握的技能</li>
+<li>利用空余时间去练习，并记录自己的学习或练习时长</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>三只青蛙法</p>
+<ul>
+<li><p>概念：核心是要事第一</p>
+<p>三只青蛙的概念出自博恩·崔西的《吃掉那只青蛙》一书，博恩. 崔西是世界顶级销售培训大师，他为全球500多万名专业人士做过培训，就连比尔.盖茨、沃伦.巴菲特等世界级商业领袖都曾经接受过他的领导者管理思想培训。类似核心的书籍还有《要事第一》。</p>
+<p>青蛙，指的是对你而言最重要、需要花费很多精力、乃至是最困难，但是做好之后能有很大收获的任务。</p>
+<p>我们首先需要明确自己的目标，然后将目标化整为零，逐步拆分，并根据优先级将任务划分为ABCDE五个类别，并利用80&#x2F;20法则，<br>关注你的任务中那20%的能创造80%结果的任务，明确每年、每月、每周以及每天最重要的三个青蛙，然后优先去处理这些最具有挑战和难度的任务，并经常总结。</p>
+<p>俗话说“万事开头难”，如果这些“青蛙”我们不优先完成的话，很容易造成我们的拖延症，或是让我们处于逃避状态，这也就是为什么应该“要事第一”。</p>
+</li>
+<li><p>青蛙，指的是对你而言最重要、需要花费很多精力、乃至是最困难，但是做好之后能有很大收获的任务</p>
+</li>
+<li><p>明确每年、每月、每周以及每天最重要的三个青蛙</p>
+</li>
+</ul>
+</li>
+<li><p>Don’t Break the Chain</p>
+<p>Don’t Break the Chain，意思是说：“不要断链”，这个概念比较小众，但其内在核心在生活中的应用却非常多。</p>
+<p>该概念出自Jerry Seinfeld的故事，为了创作好的笑话，这位滑稽演员给自己设定了每天都写笑话的规矩。 他买了个巨大的挂历，每天做了创作笑话的工作后就用红色记号笔在那一天的方框里画个大大的叉。 坚持一段时间后，日历上就会出现一条红色的链子，接下来要做的，就是“不要打断它”。</p>
+<p>其实这就相当于习惯的养成，目前有很多习惯类打卡的APP就是基于这个理念，每次打完卡之后，日历上面都会有圆圈标记，这就会促使我们培养并坚持习惯，因为我们总是倾向于“不想让打卡中断”。</p>
+</li>
+</ol>
+<h3 id="3、如何定制适合自己的时间管理系统"><a href="#3、如何定制适合自己的时间管理系统" class="headerlink" title="3、如何定制适合自己的时间管理系统"></a>3、如何定制适合自己的时间管理系统</h3><p>前面我们已经大致了解了一些主流的时间管理方法，</p>
+<p>但方法不在于多，我们应该如何灵活地运用它们，并构建适合自己的时间管理系统呢？接下来我们将通过具体案例进行学习，从该章节开始，希望大家可以每节课都进行实践，一起来搭建自己的时间管理体系。</p>
+<ol>
+<li><p>了解并把控时间</p>
+<p>我们要进行时间管理，那么首先要做的就是了解并把控时间。有人会问了：时间还需要了解吗？每个人不都是一天24个小时？</p>
+<p>事实的确如此，但对于每一个不同的个体，我们可以利用的时间却是各不相同的，并且会随着我们人生的发展阶段不断地变化，因此，我们首先要明确自己在不同阶段的角色定位，并将自己可利用的时间进行分类。</p>
+<ol>
+<li><p>明确自己的角色与定位</p>
+<p>首先，我们需要明确自己的角色，比如：</p>
+<ul>
+<li><p>以学业为主的初高中学生</p>
+<p>初高中学生，最重要的目标则是学科学习，并且，学校规定的课堂学习已经占据了一天的大部分时间，并且通常在学校不被建议频繁使用手机，因此，在时间管理方面，最好采用纸质版规划的方式，需要被规划利用的时间通常为自习课以及周末、假期。</p>
+</li>
+<li><p>以课余时间为主提升的大学生研究生</p>
+<p>对于大学生和研究生，课堂时间通常不会太多，这个时期更强调的是自律与自主，可利用的课余时间以及假期较多，是培养兴趣、提升自我的关键时期。</p>
+</li>
+<li><p>以业余时间为主提升的工作党</p>
+<p>对于工作党，可自由利用的时间大多为业余时间，而不同的工作性质也决定了可利用大块时间的多少。这个时期是培养技能的黄金时期，不少人都有利用业余时间学习新技能或者扩展副业的需求</p>
+</li>
+<li><p>时间比较灵活的自由职业者等</p>
+<p>对于自由职业者来说，可利用的时间很多，且具有很大的灵活性。但对自律的要求也更高，如果不好好管理并利用自己的时间，很有可能连维持自己生活的收入都难以搞定。</p>
+</li>
+</ul>
+</li>
+<li><p>时间的分类</p>
+<p>在明晰自己角色之后，我们可以将自己的时间进行分类。我通常将时间分为被动时间和主动时间；</p>
+<p>主动时间又可以分为整块时间和可使用外物的碎片化时间以及仅可用脑的碎片化时间。</p>
+<ul>
+<li><p>被动时间</p>
+<p>什么是被动时间？<br>被动时间并不是指没有意义的时间，而是指比较固定的、已被安排的无法用于自我规划提升的时间：如课堂时间、上班时间、兼职时间、开会时间等。被动时间通常不需要做过多规划，只需要注意提醒自己不要忘记即可。</p>
+</li>
+<li><p>主动时间</p>
+<p>主动时间是我们进行时间规划的重点部分，指的是我们可以灵活利用并安排分配的时间，可以分为整块时间、可使用外物的碎片化时间和仅可用脑的碎片化时间。</p>
+<ul>
+<li><p>整块时间</p>
+<p>整块时间指的是可以在一段时间内不被打扰的、可以专注的主动时间。对于学生来说，自习课时间就是一种整块时间；以我自己为例，下班晚饭后，20点到22点通常被作为我的整块时间，除此之外，周末也是整块时间（与朋友相约则除外）。</p>
+</li>
+<li><p>可使用外物的碎片化时间</p>
+<p>可使用外物的碎片化时间和仅可用脑的碎片化时间其实都是碎片化时间，之所以要将其单独分成两类，是因为这两种时间通常可以用来分配不同的事项，便于我们进行时间管理。</p>
+<p>可使用外物的碎片化时间是指我们可以使用手机、书本等外物去完成待办事项或规划提升时间的碎片化时间，</p>
+<p>这样的场景通常有：乘坐地铁、吃饭、化妆、做家务等。比如：我们可以利用乘坐地铁的时间在手机上看新闻；可以在吃饭的时候看学习视频；可以在化妆、做家务的时候听书等。</p>
+</li>
+<li><p>仅可用脑的碎片化时间</p>
+<p>仅可用脑的碎片化时间指的是我们不能或不方便使用外物，但可以用脑思考规划的碎片化时间，这样的场景通常有洗澡、上厕所、骑车、运动健身、游泳等。比如：我们可以在洗澡的时候思考明日计划与安排；在游泳的时候思考某一篇文章的布局谋篇；在骑车的时候思考某一期视频的脚本等。</p>
+<p>需要说明的是，以上时间与事件的分类并不是绝对的，对于每一个人来说都会有所不同，不必纠结具体事项。</p>
+<p>比如，骑车这一事项，对有的人来说是可使用外物的碎片化时间，对有的人来说就是仅可用脑的碎片化时间，</p>
+<p>我们更应该关注的是我想完成的事情应该怎么去完成，而不是去纠结时间分类的本身。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><p>时间管理系统该如何拆分</p>
+<p>在对时间分类有了基本的了解之后，我们就可以开始进行时间管理系统的学习了。</p>
+<p>我将时间管理系统分为：</p>
+<ol>
+<li><p>待办事项管理</p>
+<ul>
+<li><p>固定时间待办事项</p>
+<p>固定时间的待办事项是指需要在指定时间段内完成的待办事项，</p>
+<p>如：下午13点到14点的会议；下午17点的飞机；闺蜜周日的婚礼；周六下午的同学聚餐等。这类待办事项通常也被称作“日程”。</p>
+</li>
+<li><p>有截止时间的待办事项</p>
+<p>有截止时间的待办事项是指只要在截止时间前完成即可的待办事项，</p>
+<p>这类事项很容易被遗忘但遗忘后往往会有不好的结果，如：周六前完成整理好的报表并发送给领导；过年前完成核酸检测；在闺蜜的婚礼前挑选好结婚礼物等。</p>
+</li>
+<li><p>重复待办事项</p>
+<p>重复待办事项是指有周期时间的待办事项，</p>
+<p>如：每周末给家人打电话；每月5号花呗还款；每月10号信用卡还款；每周末收拾房间等。</p>
+</li>
+<li><p>无时间待办事项</p>
+<p>无时间的待办事项指没有固定时间要求的待办事项，如买衣服；洗衣服；学习英语；学习如何剪辑视频；学习理财课程等。</p>
+<p>可以发现，这部分待办事项，既有一些不太重要的琐碎事宜，也有一些对于自我提升很有意义的事项。</p>
+<p>因此无时间待办事项可以细化为：</p>
+<ul>
+<li><p>短时行动类的无时间待办事项</p>
+<p>如买衣服、洗衣服、收拾房间等可以在短时间内完成的没有时间需求的待办事项</p>
+</li>
+<li><p>长时行动类的无时间待办事项</p>
+<p>如给家人分别准备新年礼物、制定旅游计划与攻略等需要较长时间来完成的没有时间需求的待办事项。</p>
+</li>
+<li><p>目标提升类的无时间待办事项</p>
+<p>如学习英语、书籍阅读、学习理财等需要较长时间完成的具有学习提升属性的没有时间需求的待办事项。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>健康管理</p>
+<p>健康管理是个被很多人忽视的版块。现在的手机占据了人们大部分的时间，很多年轻朋友们都经常性熬夜、不按时吃饭、睡眠不足或者运动量少，懒惰是人们的天性，过度的娱乐使我们的生活越来越不健康。为了让我们养成良好的生活习惯，保持足够的精力，我们需要进行健康模块的管理。</p>
+<p>我将健康管理分为饮食健康、睡眠健康、运动健康三个大板块，而各位小伙伴可以根据自己的实际情况进行增减，比如女性朋友可以还可以增加生理期记录。</p>
+</li>
+<li><p>目标管理</p>
+<p>关于目标的重要性，相信大家在上学时已经听老师们反复强调过。可能会有一部分同学认为：目标都是假大空的，我只想完成当前的事情。但实际上，目标对于我们的提升非常重要，我们只有先给自己制定一些目标，我们才会在日常生活中事事向着这个方向努力，并最终让目标成为事实。</p>
+<p>待办事项管理让我们的每天能够顺利地进行下去，但只要实行过待办事项管理的人都会发现一个问题：那些没有时间的待办事项中，有一部分“重要不紧急”的事项，如英语学习、理财学习等，会逐渐被我们遗忘，如此一来，会让我们感觉自己每天都很忙碌，但又好像一无所成的样子。</p>
+<p>这一部分的待办事项实际上就属于目标的一部分，掌握好目标管理的方法，可以帮助我们解决这一类问题。</p>
+<p>目标管理通常以年为大单位，但为了更好地完成这些目标，我们需要细化到月目标和周目标。我通常将目标分为学习提升类目标和列表清单类目标。</p>
+<ol>
+<li><p>学习提升类目标</p>
+<p>学习提升类目标主要包括各种课程学习、兴趣培养、副业开展等，比如：理财课程学习；英语口语训练；视频制作学习等。</p>
+</li>
+<li><p>列表清单类目标</p>
+<p>列表清单类目标主要包括各种可以列举清单的目标，其单项的完成时间并不长，如：书单、观影清单、旅游清单等。</p>
+</li>
+</ol>
+</li>
+<li><p>总结记录与复盘</p>
+<p>在总结记录与复盘中，主要包括：</p>
+<ol>
+<li>时间记录：时间统计法Toggl Track</li>
+<li>目标进度：记录目标完成情况</li>
+<li>日记&#x2F;周记&#x2F;月记&#x2F;年记：对自己一段时间的表现或者心情、感悟进行总结</li>
+<li>备忘录：相当于一个“灵感清单”</li>
+</ol>
+<p>其中，时间记录可以根据实际需求选择舍弃。时间记录可以参考上文中提到的“时间统计法”，相关著作是《奇特的一生》，这里说可以选择舍弃时间记录，并不是指时间统计没有用，相反，如果能坚持记录下自己的时间，会大大提高自己对时间的把控力，帮助我们更好地规划时间、培养目标。但在实际生活中，时间记录是一个大工程，对自律的要求更高，有时候并不太适合大多数人，倘若因为对时间的记录而增加了时间管理的难度，或是为了记录而记录，反而是因小失大。另外，试想一下：倘若你的时间记录里面，充斥着大幅时间的娱乐、刷视频、发呆，你还会有心情进行时间管理吗？</p>
+<p>目标进度主要是用来记录目标完成情况的，我们可以根据自己的需要，选择以周或月进行目标进度的更新。</p>
+<p>日记&#x2F;周记&#x2F;月记&#x2F;年记其实就是对自己一段时间的表现或者心情、感悟进行总结，它的形式是非常灵活的，可以对自己的表现进行评分；可以记录自己的心情；也可以对当前的情况进行总结或是对未来提出期望。频率也由自己决定，可以选择每天记录、每周记录或者每月记录，一般年末可以再进行一个大总结。</p>
+<p>备忘录则相当于一个“灵感清单”，你可以记录一些好的点子，也可以更新一些未来想要完成的事情，一些具有参考价值的信息也可以放入其中。</p>
+</li>
+</ol>
+</li>
+<li><p>手把手教你构建自己的时间管理系统</p>
+<p>上文我们对主流的时间管理方法做了介绍，并将时间管理系统的组成部分逐一进行了拆解，也许到这里为止，你感觉脑子里有很多时间管理的知识，但又难以将其组合起来，内化为自己的时间管理方法，没有关系，接下来我将手把手带你构建自己的时间管理系统。</p>
+<ul>
+<li><p>事项收集</p>
+<p>首先我们需要拿出一张白纸或打开一页空白的文档，放空自己的大脑，然后将你能想到的所有需要做的事情、闪过的点子都记录下来。</p>
+<p>当你把大脑中的事项全部腾空，写在文档上之后，第一步的事项收集就算成功完成了，接下来我们进行第二步：事项分类。</p>
+</li>
+<li><p>事项分类：将待办事项细化</p>
+<p>在这一步中，我们需要将待办事项细化，补足时间信息，文字动画，并将目前的所有待办事项按照</p>
+<ul>
+<li>固定时间待办事项、</li>
+<li>有截止时间的待办事项、</li>
+<li>重复待办事项、</li>
+<li>短时行动类的无时间待办事项、</li>
+<li>长时行动类的无时间待办事项</li>
+<li>和目标提升类的无时间待办事项进行分类。</li>
+</ul>
+<p>将我上面列举的事项细化之后可以发现，</p>
+<p>固定时间待办事项的有：</p>
+<ul>
+<li>元旦回老家</li>
+<li>春节回家</li>
+</ul>
+<p>截止时间待办事项有：</p>
+<ul>
+<li>2月10日前买过年回家的车票。</li>
+</ul>
+<p>重复待办事项有：</p>
+<ul>
+<li>每天喂猫；</li>
+<li>上班前关暖气；</li>
+<li>每月20日信用卡还款；</li>
+<li>每季度15日交房租；</li>
+<li>每月10日蚂蚁花呗还款；</li>
+<li>每天睡够8小时；</li>
+<li>每天吃早餐；</li>
+<li>运动以及眼保健操。</li>
+</ul>
+<p>短时行动类的无时间待办事项有：</p>
+<ul>
+<li>洗衣服；</li>
+<li>收拾房间和整理相册。</li>
+</ul>
+<p>长时行动类的无时间待办事项有：</p>
+<ul>
+<li>去稻城旅游。</li>
+</ul>
+<p>最后目标提升类的无时间待办事项有：</p>
+<ul>
+<li>学习理财；</li>
+<li>学习动画；</li>
+<li>看5本书和看10部电影。</li>
+</ul>
+</li>
+<li><p>事项规划：将你的目标拆分为具体的、可实行的待办事项</p>
+<p>这一步我们需要将待办事项进行进一步的拆分细化，</p>
+<p>在这一环节，你需要将你的目标拆分为具体的、可实行的待办事项，如具体的课程系列、具体的书单、运动的频率与时长等。</p>
+<p>咱们还是看上面的例子，</p>
+<p>其中，固定时间待办事项和截止时间待办事项已经比较具体，不需要继续细化。</p>
+<p>重复待办事项中，如每天喂猫、上班前关暖气以及每月20号还款等事项也无需细化，但是运动这一项就需要进行进一步的拆分和细化。</p>
+<p>大家试想一下，假如你的待办事项中有一项标题为“运动”的待办事项，那么当你实施起来的时候是不是会有点不知从何开始？我是跑步呢，还是做瑜伽，或是健身？</p>
+<p>提前进行事项规划则可以提升我们的效率，并且可以帮助我们抵抗拖延症。</p>
+<p>运动应该如何拆分呢？我这里举个例子，我感兴趣的运动方向包括：瘦腿、瘦肚子，在这两个重点运动方向之后才是全身瘦；那么接下来我们就可以去挑选适合的运动软件或者课程，如Keep、B站，最好是有可以跟练的视频；最后我们可以确定一下时间和频率，比如每周三天，每次30分钟。</p>
+<p>接下来是眼保健操，这个比较简单，可以选择每天都做1次或者一周做5次。</p>
+<p>短时行动类的无时间待办事项一般来说也不需要细化。</p>
+<p>然后是长时行动类的无时间待办事项，这个基本上都需要我们进一步细化，<br>比如，我想去稻城旅游，那么我们可以细化为：确定时间、查看攻略、购买车票、预定酒店和预定门票，这样我们在进行规划时能够比较有条理。</p>
+<p>最后一项是目标提升类的无时间待办事项，这一项也是我们细化的重点。<br>第一项学习理财，我们可以先去看一些他人的经验分享，这个经验可以是笼统性的，目的在于帮助我从中挑选我想要进一步学习的方向，那么最终我确定了记账和基金两个学习方向，方向确定之后我们就可以去寻找相关的课程了，比如理财基础知识、基金定投课程等。</p>
+<p>下一个目标是学习动画，我们可以先列举一些自己感兴趣的方向，比如MG动画、角色动画、AE、C4D等，但由于时间和精力有限，我们无法同时进行学习，因此我先选择了最想学的C4D，并可以去寻找C4D动画课程，而剩下的方向可以用于下一次的规划。</p>
+<p>然后是看5本书，10部电影，我们可以先把书籍和电影列举出来再看，也可以慢慢再更新，因为这属于清单类的目标事项，一本书、一部电影花费的时间并不算特别长，因此我们的计划很可能随时会变，所以边看边更新清单也是可以的</p>
+</li>
+<li><p>时间规划</p>
+<p>接下来需要为已经具体化的待办事项制定初始的时间规划。这里我借鉴的是“一万小时理论”，为提升类目标制定一个时长规划，还是来到之前的例子，我们试着初步拟定一个时间规划方案：首先，去稻城旅游定在5月份的劳动节；学习理财定为一年200个小时，算下来每天平均32分钟；学习动画定为一年300个小时，平均每天50分钟。另外，两个月看一本书；一个月一部电影。</p>
+<p>这一步的目的是通过计算时间来预估自己的规划是否合理，以及目标是否可以被完成。</p>
+<p>目前的规划中，每天约有80min的学习提升时间，还需要预留读书和看电影的时间，计划比较合理。有以下注意事项：</p>
+<ol>
+<li>目标时间不要过长，需要留出突发事件的时间，以及偶尔懒惰带来的时间浪费</li>
+<li>不需要精确计划时间，避免计划混乱带来的挫败感</li>
+<li>这里并不是说每天必须学习这么长时间，前一天学习的时间少了，可以后面再补回来，算出每天的时间只是为了让大家知道你的时间是否合理。</li>
+</ol>
+</li>
+<li><p>工具配合</p>
+<p>在这个过程中，你可能会试用很多软件，但只要你的时间管理系统足够稳定，你就不会被这个工具搜寻的过程打败，切记的是：<strong>不要为了去适配你搜寻到工具软件，而去反复调整你自己的时间管理系统。</strong></p>
+<ul>
+<li><p>待办事项分类：时光序</p>
+</li>
+<li><p>五类待办事项创建：时光序</p>
+<p>操作：在这一步中，我们需要参考时间规划中得出的清单，将固定时间的待办事项、有截止时间的待办事项、重复待办事项、短时行动类的无时间待办事项和长时行动类的无时间待办事项这五类待办事项在软件中按照自己定义的清单分别创建。</p>
+</li>
+<li><p>目标管理系统创建：<a href="https://shimo.im/sheets/rPdPGcJOYD8BZTVp/MODOC/">石墨文档</a></p>
+</li>
+<li><p>目标提升类待办事项创建</p>
+<p>目标管理系统已经搭建完成，可以发现，我们多了几项目标提升类的无时间待办事项，我们需要将本周的周目标以待办的形式在时光序中创建，可以先不确定时间。</p>
+</li>
+<li><p>待办事项整体优化</p>
+</li>
+<li><p>待办事项的时间安排</p>
+</li>
+<li><p>待办事项执行方法：工具：番茄ToDo</p>
+</li>
+<li><p>总结记录与复盘</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Goal</category>
+      </categories>
+      <tags>
+        <tag>Goal</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>.NET Core API Best Practices</title>
+    <url>/2023/11/23/NET%20Core%20API%20Best%20Practices/</url>
+    <content><![CDATA[<p>[TOC]</p>
+<h3 id="1、紧密耦合"><a href="#1、紧密耦合" class="headerlink" title="1、紧密耦合"></a>1、紧密耦合</h3><p>​		 避免在控制器中声明特定的依赖项实例，应该使用依赖注入系统将依赖项注入到控制器中。后者避免了紧密耦合，更加易于维护和测试。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">ApiController</span>]</span><br><span class="line">[<span class="meta">Route(<span class="string">&quot;[controller]&quot;</span>)</span>]</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">ProductController</span> : <span class="title">ControllerBase</span></span><br><span class="line">&#123;</span><br><span class="line">    ProductService productService = <span class="keyword">new</span> ProductService();</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">ApiController</span>]</span><br><span class="line">[<span class="meta">Route(<span class="string">&quot;[controller]&quot;</span>)</span>]</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">ProductController</span> : <span class="title">ControllerBase</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">readonly</span> ILogger&lt;ProductController&gt; _logger;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">readonly</span> IProductService _productService;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ProductController</span>(<span class="params">IProductService productService, ILogger&lt;ProductController&gt; logger</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">        _logger = logger;</span><br><span class="line">        _productService = productService;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="2、Mixing-Concerns功能混淆"><a href="#2、Mixing-Concerns功能混淆" class="headerlink" title="2、Mixing Concerns功能混淆"></a>2、Mixing Concerns功能混淆</h3><p>​		 控制器应专注于 HTTP 请求和生成响应。避免混合身份验证、授权或任何其他验证等问题，而是使用中间件或任何单独的类或服务。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// Authentication and authorization logic here</span></span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    <span class="comment">// Data access logic here</span></span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    <span class="keyword">return</span> Ok(StatusCodes.Status201Created);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line">[<span class="meta">Authorize</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> Ok(StatusCodes.Status201Created);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="3、缺乏异常处理"><a href="#3、缺乏异常处理" class="headerlink" title="3、缺乏异常处理"></a>3、缺乏异常处理</h3><p>​		 避免在控制器中使用 try-catch 块，而是使用异常中间件来更好地处理异常以返回一般错误消息。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid (Inconsistent error handling or try catch everywhere</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">try</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> Ok(StatusCodes.Status201Created);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">catch</span> (ProductValidationException ex)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> BadRequest(ex.Message);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">catch</span> (Exception ex)</span><br><span class="line">    &#123;</span><br><span class="line">        _logger.LogError(ex, <span class="string">&quot;An error occurred while creating the product.&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> StatusCode(StatusCodes.Status500InternalServerError);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer Exception filters or Middleware</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> Ok(StatusCodes.Status201Created);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="4、长时操作"><a href="#4、长时操作" class="headerlink" title="4、长时操作"></a>4、长时操作</h3><p>​		避免在控制器中执行长时间运行的操作。相反，应该把长时操作加入到后台运行的队列中，以避免系统停止服务。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GenerateReport</span>(<span class="params">Report report</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// Long-running operation</span></span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> Ok(report);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GenerateReport</span>(<span class="params">Report report</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">var</span> taskIdentifier = <span class="keyword">await</span> _messageQueueService.EnqueueAsync(report);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> StatusCode(StatusCodes.Status202Accepted, taskIdentifier);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="5、缺少验证"><a href="#5、缺少验证" class="headerlink" title="5、缺少验证"></a>5、缺少验证</h3><p>​		输入验证对于确保系统的完整性和安全性至关重要。避免忽视控制器中的输入验证。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// No validation</span></span><br><span class="line">    <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line">    <span class="keyword">return</span> Ok(StatusCodes.Status201Created);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">[FromBody] ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span> (!ModelState.IsValid)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> StatusCode(StatusCodes.Status400BadRequest, ModelState);                </span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line">    <span class="keyword">return</span> Ok(StatusCodes.Status201Created);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="6、直接访问数据库"><a href="#6、直接访问数据库" class="headerlink" title="6、直接访问数据库"></a>6、直接访问数据库</h3><p>​		避免直接访问数据库，而是使用服务或存储库将控制器与特定的数据访问技术分离。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> IActionResult <span class="title">GetProduct</span>(<span class="params"><span class="built_in">int</span> productId</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">var</span> product = dbContext.Products.Find(productId);</span><br><span class="line">    <span class="keyword">return</span> Ok(product);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GetProduct</span>(<span class="params"><span class="built_in">int</span> productId</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">var</span> product = <span class="keyword">await</span> _productService.GetByIdAsync(productId);</span><br><span class="line">    <span class="keyword">return</span> Ok(product);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="7、缺乏缓存"><a href="#7、缺乏缓存" class="headerlink" title="7、缺乏缓存"></a>7、缺乏缓存</h3><p>​		在适当的时候实施缓存机制。利用缓存来提高性能并减少服务器上的负载。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoi</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GetProducts</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">var</span> products = <span class="keyword">await</span> _productService.GetAllAsync();</span><br><span class="line">    <span class="keyword">return</span> Ok(products);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line">[<span class="meta">ResponseCache(Duration = 60)</span>] <span class="comment">// Cache the response for 60 seconds</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GetProducts</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">var</span> products = <span class="keyword">await</span> _productService.GetAllAsync();</span><br><span class="line">    <span class="keyword">return</span> Ok(products);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="8、缺乏身份验证和授权"><a href="#8、缺乏身份验证和授权" class="headerlink" title="8、缺乏身份验证和授权"></a>8、缺乏身份验证和授权</h3><p>​		对敏感操作实施身份验证和授权。相应地保护控制器和操作方法的安全访问。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoi</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">DeleteProduct</span>(<span class="params"><span class="built_in">int</span> productId</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// No authentication or authorization</span></span><br><span class="line">    <span class="keyword">await</span> _productService.DeleteAsync(productId);</span><br><span class="line">    <span class="keyword">return</span> StatusCode(StatusCodes.Status200OK);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line">[<span class="meta">Authorize(Roles = <span class="string">&quot;Admin&quot;</span>)</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">DeleteProduct</span>(<span class="params"><span class="built_in">int</span> productId</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">await</span> _productService.DeleteAsync(productId);</span><br><span class="line">    <span class="keyword">return</span> StatusCode(StatusCodes.Status200OK);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="9、逻辑过多"><a href="#9、逻辑过多" class="headerlink" title="9、逻辑过多"></a>9、逻辑过多</h3><p>​		避免过多的逻辑。控制器应主要负责处理传入请求和返回响应。对于任何复杂的逻辑，应使用单独的实用程序或服务。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GetProducts</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// Complex business logic here</span></span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    <span class="keyword">return</span> Ok(products);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">GetProducts</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">var</span> products = <span class="keyword">await</span> _productService.GetAllAsync();</span><br><span class="line">    <span class="keyword">return</span> Ok(products);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="10、忽略-HTTP-动词实现RESTful-原则"><a href="#10、忽略-HTTP-动词实现RESTful-原则" class="headerlink" title="10、忽略 HTTP 动词实现RESTful 原则"></a>10、忽略 HTTP 动词实现RESTful 原则</h3><p>​		ASP.NET Core 中的控制器应遵循 RESTful 架构的原则。避免使用不符合 RESTful 约定的不当 HTTP 谓词或操作。使用适当的 HTTP 动词（GET、POST、PUT、DELETE 等）。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> IActionResult <span class="title">DeleteProduct</span>(<span class="params"><span class="built_in">int</span> productId</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">HttpDelete(<span class="string">&quot;/api/products/&#123;id&#125;&quot;</span>)</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> IActionResult <span class="title">DeleteProduct</span>(<span class="params"><span class="built_in">int</span> productId</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="11、缺乏正确的路由"><a href="#11、缺乏正确的路由" class="headerlink" title="11、缺乏正确的路由"></a>11、缺乏正确的路由</h3><p>​		确保控制器已正确路由以处理传入请求。避免不一致或不明确的路由配置。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpGet</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> IActionResult <span class="title">Get</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer:</span></span><br><span class="line">[<span class="meta">HttpGet(<span class="string">&quot;api/products&quot;</span>)</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> IActionResult <span class="title">Get</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="12、缺少日志"><a href="#12、缺少日志" class="headerlink" title="12、缺少日志"></a>12、缺少日志</h3><p>​		日志记录是应用程序开发的一个非常关键的方面，因为它有助于在代码执行期间跟踪重要事件、条件和错误。使用中间件或操作筛选器捕获相关信息。</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Avoid</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span> (someSimpleCondition)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">// ...</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line">    <span class="keyword">return</span> Ok();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Prefer</span></span><br><span class="line">[<span class="meta">HttpPost</span>]</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;IActionResult&gt; <span class="title">CreateProduct</span>(<span class="params">ProductDto productDto</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">     <span class="keyword">if</span> (someSimpleCondition)</span><br><span class="line">     &#123;</span><br><span class="line">        <span class="comment">// ...</span></span><br><span class="line">        _logger.LogWarning(<span class="string">&quot;Warning: Some simple condition is met.&quot;</span>); <span class="comment">// Log a warning</span></span><br><span class="line">     &#125;</span><br><span class="line"></span><br><span class="line">     <span class="keyword">await</span> _productService.CreateAsync(productDto);</span><br><span class="line">     <span class="keyword">return</span> Ok();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>参考：</p>
+<ol>
+<li><a href="https://www.linkedin.com/pulse/12-bad-practices-avoid-aspnet-core-api-controllers-muhammad-kamran/">12 Bad Practices to Avoid in ASP.NET Core API Controllers</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>.NETCore</category>
+      </categories>
+      <tags>
+        <tag>.NETCore,API</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Publish Nuget from 0 to 1</title>
+    <url>/2023/06/26/Publish%20Nuget%20from%200%20to%201/</url>
+    <content><![CDATA[<p>[TOC]</p>
+<h2 id="Nuget"><a href="#Nuget" class="headerlink" title="Nuget"></a>Nuget</h2><h3 id="1、创建示例项目"><a href="#1、创建示例项目" class="headerlink" title="1、创建示例项目"></a>1、创建示例项目</h3><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="literal">--</span>创建文件夹EasyUtilityCore</span><br><span class="line"><span class="built_in">md</span> EasyUtilityCore</span><br><span class="line"><span class="built_in">cd</span> EasyUtilityCore</span><br><span class="line"></span><br><span class="line"><span class="literal">--</span>新建EasyUtilityCore类库</span><br><span class="line">dotnet new classlib</span><br></pre></td></tr></table></figure>
+
+<p>新建扩展StringExtension</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> <span class="title">EasyUtilityCore</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title">StringExtension</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> 忽略空格与大小写</span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;strA&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;strB&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;returns&gt;</span><span class="doctag">&lt;/returns&gt;</span></span></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="built_in">bool</span> <span class="title">CompareIgnoreCaseAndSpace</span>(<span class="params"><span class="keyword">this</span> <span class="built_in">string</span> strA, <span class="built_in">string</span> strB</span>)</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (strA == <span class="literal">null</span> || strB == <span class="literal">null</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">return</span> strA == strB;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">return</span> strA.Trim().ToLower() == strB.Trim().ToLower();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> 超长字符串截取</span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> 处理较短字符串截取Case</span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;str&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;length&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;index&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line">        <span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;returns&gt;</span><span class="doctag">&lt;/returns&gt;</span></span></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="built_in">string</span> <span class="title">Sub</span>(<span class="params"><span class="keyword">this</span> <span class="built_in">string</span> str, <span class="built_in">int</span> length, <span class="built_in">int</span> index = <span class="number">0</span></span>)</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (str == <span class="literal">null</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">return</span> str;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">return</span> str.Substring(index, Math.Min(str.Length, length));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">--构建类库</span><br><span class="line">dotnet build</span><br></pre></td></tr></table></figure>
+
+<h3 id="2、添加包元数据"><a href="#2、添加包元数据" class="headerlink" title="2、添加包元数据"></a>2、添加包元数据</h3><p>每个 NuGet 包都需要一个清单，用以描述包的内容和依赖项。 在最终包中，清单是基于项目文件中包含的 NuGet 元数据属性生成的 文件。</p>
+<p>打开 <em>.csproj</em>项目文件，并在现有 <code>&lt;PropertyGroup&gt;</code> 标记中添加以下属性。</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">PackageId</span>&gt;</span>EasyUtilityCore<span class="tag">&lt;/<span class="name">PackageId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">Version</span>&gt;</span>1.0.0<span class="tag">&lt;/<span class="name">Version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">Authors</span>&gt;</span>wzyandi<span class="tag">&lt;/<span class="name">Authors</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">Company</span>&gt;</span>wzyandi<span class="tag">&lt;/<span class="name">Company</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">Description</span>&gt;</span>Some common extension methods<span class="tag">&lt;/<span class="name">Description</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">RepositoryUrl</span>&gt;</span>https://github.com/amerina/EasyUtilityCore<span class="tag">&lt;/<span class="name">RepositoryUrl</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">PackageProjectUrl</span>&gt;</span>https://github.com/amerina/EasyUtilityCore<span class="tag">&lt;/<span class="name">PackageProjectUrl</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">RepositoryType</span>&gt;</span>Git<span class="tag">&lt;/<span class="name">RepositoryType</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">PackageTags</span>&gt;</span>ASP.NET Core,Utility Method<span class="tag">&lt;/<span class="name">PackageTags</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">Copyright</span>&gt;</span>Amerina<span class="tag">&lt;/<span class="name">Copyright</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>PackageId在 nuget.org必须是唯一的。</p>
+<h3 id="3、构建包"><a href="#3、构建包" class="headerlink" title="3、构建包"></a>3、构建包</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">dotnet pack</span><br></pre></td></tr></table></figure>
+
+<p>查看EasyUtilityCore\bin\Debug路径已生成EasyUtilityCore.1.0.0.nupkg文件</p>
+<h3 id="4、发布包"><a href="#4、发布包" class="headerlink" title="4、发布包"></a>4、发布包</h3><p>将 <em>.nupkg</em> 文件发布到 nuget.org，方法是将 dotnet nuget push命令与从 nuget.org 获取的 API 密钥配合使用。</p>
+<p>获取 API 密钥</p>
+<ol>
+<li><a href="https://www.nuget.org/users/account/LogOn?returnUrl=/">登录你的 nuget.org 帐户</a>，或创建一个帐户（如果你还没有帐户）。</li>
+<li>选择用户名（在右上角），然后选择“API 密钥”。</li>
+<li>选择 <strong>“创建”</strong>，并提供密钥的名称。</li>
+<li>在 <strong>“选择范围”</strong>下，选择“ <strong>推送</strong>”。</li>
+<li>在 <strong>“选择包</strong>&gt;<strong>Glob 模式</strong>”下，输入 *。</li>
+<li>选择“创建”。</li>
+<li>选择 <strong>“复制</strong> ”以复制新密钥。</li>
+</ol>
+<p>在包含 <em>.nupkg</em> 文件的文件夹运行以下命令。</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">dotnet nuget push EasyUtilityCore.<span class="number">1.0</span>.<span class="number">0</span>.nupkg <span class="literal">-key</span> [<span class="type">yourKey</span>] <span class="literal">-s</span> https://api.nuget.org/v3/index.json</span><br></pre></td></tr></table></figure>
+
+<h3 id="5、包版本控制"><a href="#5、包版本控制" class="headerlink" title="5、包版本控制"></a>5、包版本控制</h3><p>特定版本号的格式为 Major.Minor.Patch[-Suffix] ，其中的组件具有以下含义：</p>
+<ul>
+<li><em>Major</em>：重大更改</li>
+<li><em>Minor</em>：新增功能，但可向后兼容</li>
+<li><em>Patch</em>：仅可向后兼容的 bug 修复</li>
+<li><em>-Suffix</em>（可选）：连字符后跟字符串，表示预发布版本</li>
+</ul>
+<p>-Suffix-包开发人员通常遵循识别的命名约定：</p>
+<ul>
+<li><code>-alpha</code>：Alpha 版本，通常用于在制品和试验品。</li>
+<li><code>-beta</code>：Beta 版本，通常指可用于下一计划版本的功能完整的版本，但可能包含已知 bug。</li>
+<li><code>-rc</code>：候选发布，通常可能为最终（稳定）版本，除非出现重大 bug。</li>
+</ul>
+<h3 id="6、参考"><a href="#6、参考" class="headerlink" title="6、参考"></a>6、参考</h3><p><a href="https://learn.microsoft.com/zh-cn/nuget/what-is-nuget">NuGet 及其功能介绍 | Microsoft Learn</a></p>
+<p><a href="https://learn.microsoft.com/zh-cn/nuget/nuget-org/package-readme-on-nuget-org">NuGet.org 上的包自述文件 | Microsoft Learn</a></p>
+]]></content>
+      <categories>
+        <category>Nuget</category>
+      </categories>
+      <tags>
+        <tag>Nuget</tag>
       </tags>
   </entry>
 </search>
