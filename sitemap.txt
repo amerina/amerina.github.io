@@ -1,3 +1,4 @@
+https://www.wuzhaoyang.fun/2023/12/01/SQLServer%20Locking%20and%20Concurrency/
 https://www.wuzhaoyang.fun/2023/11/28/Time%20Will%20Tell%20Me%20The%20Answer/
 https://www.wuzhaoyang.fun/2023/11/23/NET%20Core%20API%20Best%20Practices/
 https://www.wuzhaoyang.fun/2023/06/26/Publish%20Nuget%20from%200%20to%201/
@@ -20,9 +21,12 @@ https://www.wuzhaoyang.fun/tags/DDD/
 https://www.wuzhaoyang.fun/tags/Goal/
 https://www.wuzhaoyang.fun/tags/NETCore/
 https://www.wuzhaoyang.fun/tags/API/
+https://www.wuzhaoyang.fun/tags/SQL/
+https://www.wuzhaoyang.fun/tags/ReadingNotes/
 https://www.wuzhaoyang.fun/categories/Pattern/
 https://www.wuzhaoyang.fun/categories/Macola-ERP/
 https://www.wuzhaoyang.fun/categories/Nuget/
 https://www.wuzhaoyang.fun/categories/DDD/
 https://www.wuzhaoyang.fun/categories/NETCore/
 https://www.wuzhaoyang.fun/categories/Goal/
+https://www.wuzhaoyang.fun/categories/SQL/

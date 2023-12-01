@@ -1901,4 +1901,334 @@
         <tag>Nuget</tag>
       </tags>
   </entry>
+  <entry>
+    <title>SQLServer Locking and Concurrency</title>
+    <url>/2023/12/01/SQLServer%20Locking%20and%20Concurrency/</url>
+    <content><![CDATA[<h3 id="并发控制模型"><a href="#并发控制模型" class="headerlink" title="并发控制模型"></a>并发控制模型</h3><p>一般数据库系统使用两种方式来管理并发数据访问：</p>
+<ul>
+<li>悲观并发控制</li>
+<li>乐观并发控制</li>
+</ul>
+<p>对于任何一种并发控制模型，如果两个进程试图在同一时刻修改同一数据的话都会产生冲突。这两种模型之间的区别在于，<strong>是在冲突发生前进行防止，还是在发生后采用某种方法来处理冲突。</strong></p>
+<ol>
+<li><p>悲观并发控制</p>
+<p>对于悲观并发控制，SQL Server 的默认行为是获取锁（lock）来阻塞对于别的进程正在使用的数据的访问。悲观并发模型假定系统中存在足够多的数据修改操作以致任何确定的读操作都可能会受到由别的用户所制造的数据修改的影响。换言之，数据库系统具有悲观的行为并且假定冲突是会发生的。悲观并发控制是通过占有( acquirc）正在被读取的数据上的锁来避免冲突的，囚此其他进程都无法修改该数据。同样地，占有正被修改的数据上的锁会造成其他进程都无法访问数据（无论是读取还是修改）。换句话说，<strong>在悲观并发环境中，读者（reader）和写者( writer）之间是会互相阻塞的。</strong></p>
+</li>
+<li><p>乐观并发控制</p>
+<p>乐观并发模型假定系统中存在非常少的相冲突的数据修改操作，以致任何单独的事务都不太可能修改其他事务正在修改的数据。<strong>乐观并发控制的默认行为是采用行版本控制使数据读者能够看到修改操作发生以前的数据状态。旧版本的数据行会被保存下来，因此一个读取数据的进程可以看到在该进程刚开始进行读取时的数据并且不会受到任何正对该数据进行修改操作的影响。</strong>一个修改数据的进程不会受到其他正在读取该数据的进程的影响是由于读者正在访问数据行的一个被保存过的版本。换言之，读者和写者之间不会互相阻塞。写者之间还是会发生阻塞，而这也就是造成冲突的原因了。当冲突发生时，SQL. Server会生成一个错误消息，但这需要由上层的应用程序来响应此错误。</p>
+</li>
+</ol>
+<p>简述来说就是：</p>
+<ul>
+<li>悲观模型：在悲观模型中，写者总是阻塞读者和写者，而读者也会阻塞写者。</li>
+<li>乐观模型：在乐观模型中，唯一可能发生的阻塞是写者阻塞其他写者。</li>
+</ul>
+<h3 id="事务处理"><a href="#事务处理" class="headerlink" title="事务处理"></a>事务处理</h3><h4 id="ACID属性"><a href="#ACID属性" class="headerlink" title="ACID属性"></a>ACID属性</h4><p>事务处理保证了SQLServer数据库的一致性( consisitency）以及可复原性( recoverability )。它保证了所有事务都是作为一个单独的任务单元被执行的——即使发生了硬件故障或者一般的系统故障。这样的事务被认为具有ACID属性:</p>
+<ul>
+<li><p>原子性(atomicity) </p>
+<p>SQL Server保证事务的原子性。原子性指的是每个事务被视为全部或者什么也没有——不是提交(commit）就是中止 (abort)。如果一个事务提交了，它造成的所有效果都会被保留。如果中止了，其所有效果都会被撤销。</p>
+</li>
+<li><p>一致性(consistency)</p>
+<p>一致性属性确保事务不允许系统到达一个不准确的逻辑状态——数据必须总是保持逻辑上的正确。即使在发生系统故障时，约束和规则也必须得到承兑。</p>
+</li>
+<li><p>隔离性(isolation）</p>
+<p>隔离性会将并发事务与其他未完成（incomplete）事务的更新操作分隔开。</p>
+<p>SQL Server会在事务之间自动实现隔离。它采用锁定数据或者新建行版本来使多个并发用户能够操作数据，以防止导致不正确结果的副作用发生，并且如果用户想要序列化他们的请求时（也就是将请求排队等候并且一次只处理一个的方式）使其与预期值不同。这个可序列化特性也是SQL Server 所支持的隔离级别中的一种。SQL Server支持多种隔离级别，因此用户能够在锁定多少数据和持有多长时间的锁之间进行适当权衡( tradeoff）并且选择是否允许用户访问以前版本的行数据。这种权衡也就是大家熟知的并发性 vs.一致性(concurrency vs. consistency)。</p>
+</li>
+<li><p>持久性(durability)</p>
+<p>当事务提交以后，SQL Server 的持久性属性就会确保该事务的作用持续存在（即使发生系统故障）。如果在事务进行过程中发生了系统故障，事务就会被完全撤销，不会在数据上遗留部分作用。譬如说，</p>
+<p>如果在事务的中间过程（事务提交之前)发生了停电，整个事务就被回滚（rollback）到系统重启时的状态。</p>
+<p>如果在事务的提交确认被发送到调用的应用程序之后立刻发生了停电，数据库会确保该事务的存在。预写式日志( write-ahead logging）以及SQL Server启动恢复阶段（recovery phase)的事务自动回滚&#x2F;前滚机制能够确保持久性。</p>
+</li>
+</ul>
+<p>除了保证显式多语句事务能够维持ACID属性以外，SQL Server还确保隐式事务同样维持ACID 属性。</p>
+<p>用户对于隔离级别的选择决定了下列这些行为中哪种是被允许的：</p>
+<ul>
+<li><p>丢失更新(Lost updates)</p>
+<p>丢失更新（Lost updates)当两个进程读取相同数据并且都处理该数据（修改它的值），然后都尝试更新原来的数据成新的值时，这种行为就会产生了。第二个进程可能完全覆盖掉第一个所完成的更新。</p>
+</li>
+<li><p>脏读(Dirty reads)</p>
+<p>脏读(Dirty reads)这种行为在一个进程读取未提交数据时会产生。如果一个进程修改了数据但是尚未提交修改，而另一个正在读取数据的进程会读到这个修改从而导致-一种不一致的状态发生。</p>
+<p>默认情况下，脏读是不允许的。谨记:更新数据的进程是无法控制别的进程在它提交之前读取其数据的。这是由读取数据的进程来决定是否想要读取未必会被提交的数据。</p>
+</li>
+<li><p>不可重复读(Non-repeatable reads)</p>
+<p>不可重复读( Non-repeatable reads)这种行为又被叫做“不一致分析”( inconsistent analysis）。如果一个进程在同一事务中分别以两个读操作读取相同资源时可能会得到不同的值，这就是不可重复读。这种情况可能发生在第一个进程执行两次读操作的间隔内别的进程修改数据的时候。</p>
+</li>
+<li><p>幻影(Phantoms)</p>
+<p>幻影(Phantoms)这种行为产生于一个数据集内的部分数据被修改时。这只发生在查询中带有一个谓词（ predicate )的时候——譬如WHERE count_of .widgets &lt; 10 这样的。如果在同一事务中使用相同谓词的两次SELECT操作返回不同数量的结果集，幻影就产生了。</p>
+</li>
+</ul>
+<h4 id="隔离级别-ISOLATION-LEVEL"><a href="#隔离级别-ISOLATION-LEVEL" class="headerlink" title="隔离级别(ISOLATION LEVEL)"></a>隔离级别(ISOLATION LEVEL)</h4><ol>
+<li><p>未提交读(UNCOMMITTED READ)：悲观模型</p>
+<p>对于未提交读隔离级别来说，除了丢失更新以外，以上提到的所有行为都有可能发生。用户的查询可能读到未提交的数据，并且不可重复读以及幻影都是有可能存在的。<strong>未提交读是通过使读操作不占有任何锁来实现的，而且由于SQL Server 不再尝试获取锁，也就不会被其他进程所占有的相冲突的锁阻塞住了。</strong>用户的进程能够读取其他进程已经修改过但尚未提交的数据。尽管该模式通常并不是理想的选择，但是由于未提交读，用户就不会卡在等待锁上，并且读操作不占有任何锁而可能影响到其他正在读取或者写入数据的进程。</p>
+<p>当采用未提交读时，用户是放弃了对于高一致性数据〈strongly consistent data）的把握而趋向于支持系统的高并发能力，使用户不会再互相锁定住对方。</p>
+<p><strong>未提交读是针对阻塞太频繁问题的一种悲观的解决方案，因为它只是忽略了锁而不保障事务的一致性。</strong></p>
+<p>简单来说就是：读操作不申请锁,运行读取未提交的修改,也就是允许读脏数据,读操作不会影响写操作请求排他锁.</p>
+</li>
+<li><p>已提交读(READ COMMITTED)：既支持乐观模型也支持悲观模型</p>
+<p>这种隔离级别既可以是乐观的也可以是悲观的，取决于数据库的 READ_COMMTED_SNAPSHOT设置。因为这个数据库选项默认是关闭的，所以<strong>该隔离级别在默认情况下是采用悲观并发控制。</strong></p>
+<p>当提到悲观实现时采用的是“已提交读（锁定）”，而对于乐观实现采用的则是“己提交读（快照）”。</p>
+<p><strong>已提交读隔离级别保证了一个操作不会读到别的程序已经修改但尚未提交的数据。</strong>(也就是说，它决不会读到逻辑上根本未曾存在过的数据）对于已提交读（锁定〉，如果别的事务正在更新数据并因此在数据行上持有排他锁（exclusive locks），用户的事务就必须等待这些锁释放以后才能使用这个数据（无论是读取还是修改）。同样地，事务必须至少在要被访问的数据上加上共享锁(share locks)，这意味着该数据无法被其他人使用。共享锁不会妨碍其他人读取数据，但是它会使其他人需要等待才能更新数据。<strong>默认情况下，共享锁在数据处理过后就被释放了——它们无需在事务的持续时间内（甚至无需在语句的持续时间内）被保留</strong>（也就是说，如果获取了共享行锁，即使语句可能还需要处理更多行数据，每个行级锁可以在当前行被处理完毕以后马上释放掉）。<br>已提交读（快照）也能确保个操作不会读到未提交数据，但不是通过迫使其他进程等待的方式。对于已提交读（快照），每当一行数据被更新以后，SQL Server就会生成该行数据前一次已提交值的一个版本（ version）。被修改的数据仍旧被锁定着，但是其他进程可以看到该数据在更新操作开始之前的版本。</p>
+<p>简单来讲就是：该隔离级别读操作之前首先申请并获得共享锁，允许其他读操作读取该锁定的数据，但是写操作必须等待锁释放，一般读操作读取完就会立刻释放共享锁。</p>
+</li>
+<li><p>可重复读(REPEATABLE READ)：悲观模型</p>
+<p>可重复读是一种悲观的隔离级别。它在已提交读的基础上增加了新的属性:<strong>确保当事务重新访问数据或查询被再一次执行时数据将不再发生改变。</strong>换句话说，在一个事务中执行相同的查询两次是不会看到由其他用户的事务所造成的任何数据上的改变的。然而，可重复读隔离级别还是允许幻影行的出现。<br>在某些情况下，防止不可重复读是用户向往的一种安全措施。但是世上没自免费的午餐。这种额外的安全措施所带来的开销是<strong>事务中所有的共享锁必须保留到事务完成(COMMIT或者ROLLBACK）为止。</strong>(排他锁必须总是保留到事务结束为止，无论采用何种隔离级别或者并发模型，这样事务才能在需要时被回滚。如果锁较快就释放了，就不太可能完成撤销工作，因为其他并发事务有可能已经使用了同一数据，并且修改了它的值）。<strong>只要事务是打开的，没有其他用户可以修改被该事务所访问的数据。</strong>显然，这会严重降低并发性和性能。如果事务不保持简短或者如果编写应用程序时没有能够注意到这样潜在的锁竞争问题，当一个进程正在等待锁被释放时，SQL Server就会表现出“挂起”( hang）的状态。</p>
+<p>简单来说就是：保证在一个事务中的两个读操作之间，其他的事务不能修改当前事务读取的数据，该级别事务获取数据前必须先获得共享锁同时获得的共享锁不立即释放一直保持共享锁至事务完成，所以此隔离级别查询完并提交事务很重要。</p>
+</li>
+<li><p>快照(SNAPSHOT)：乐观模型</p>
+<p>快照隔离是一种乐观隔离级别。类似于已提交读（快照），如果当前版本被锁定住时，它允许进程读取已提交数据的早期版本。快照隔离和已提交读（快照）的区别与早期版本该有多早这个问题相关。尽管快照隔离所避兔的行为和可串行化所避免的是相同的，但是快照隔离并不是真正意义上的可串行化隔离级别。对于快照隔离，可能会有两个事务在同时执行，并引起一个在任何序列化执行中都不可能产生的结果。</p>
+</li>
+<li><p>可串行化(SERIALIZABLE)：悲观模型</p>
+<p>可串行化也是一种悲观隔离级别。可串行化隔离级别在可重复读的基础上增加了新的属性:确保在重新执行查询时，SQL Server不会在中间的过渡时期（interim)增加新的行。换句话说，如果在同一事务中相同的查询被执行两次的话，幻影就不会出现了。可串行化也因此成为最健壮的悲观隔离级别，因为它防止了之前所述的所有可能的不合人意的行为——也就是说，它不允许未提交读、不可重复读和幻影，并且还保证了事务依次执行。</p>
+<p>防止幻影是另一种合人所愿的安全措施。但是需要再次强调的是，天下是没有免费午餐的。这种额外的安全措施的开销与可重复读的差不多…—事务中的所有共享锁必须保留到事务完成为止。另外，执行可串行化隔离级别不仅需要锁定已读数据，还需要锁定那些不存在的数据!</p>
+<p>简单来讲就是：可重复读能保证事务可重复读，但是事务只锁定查询第一次运行时获取的数据资源（数据行），而不能锁定查询结果之外的行，就是原本不存在于数据表中的数据。因此在一个事务中当第一个查询和第二个查询过程之间，有其他事务执行插入操作且插入数据满足第一次查询读取过滤的条件时，那么在第二次查询的结果中就会存在这些新插入的数据，使两次查询结果不一致，这种读操作称之为幻读。为了避免幻读需要将隔离级别设置为SERIALIZABLE</p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>隔离级别</th>
+<th>脏读</th>
+<th>不可重复读</th>
+<th>幻影读</th>
+<th>并发控制模型</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>未提交读</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>悲观</td>
+</tr>
+<tr>
+<td>已提交读</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>悲观</td>
+</tr>
+<tr>
+<td>已提交读(快照)</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>乐观</td>
+</tr>
+<tr>
+<td>可重复读</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>悲观</td>
+</tr>
+<tr>
+<td>快照</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>乐观</td>
+</tr>
+<tr>
+<td>可串行化</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>悲观</td>
+</tr>
+</tbody></table>
+<p>查看当前数据库事务隔离级别：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line">DBCC USEROPTIONS </span><br></pre></td></tr></table></figure>
+
+<p>设置并发控制方式：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">SET</span> TRANSACTION ISOLATION LEVEL <span class="operator">&lt;</span>ISOLATION NAME<span class="operator">&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="锁-Locking"><a href="#锁-Locking" class="headerlink" title="锁-Locking"></a>锁-Locking</h3><p>SQL Server 提供两种独立的锁定体系。</p>
+<p>第一种体系影响所有完全共享的数据并提供行级锁、分页锁、表、数据分页、LOB分页以及索引分页叶级别上的表级锁。</p>
+<p>第二种体系是SQL Server 内部使用的，用来处理索引并发控制，管理对于内部数据结构的访问以及获取数据分页中的个别记录。第二种系统采用了闩(shuan)(latch)，比锁要少耗资源并能提供性能优化。</p>
+<p>锁和门之间的区别是：锁保证数据的逻辑一致性，而闩则保证物理一致性。当用户将一行记录物理地放置到一个分页上或者通过其他方式来移动数据（譬如在一个分页上压缩空间)。闩锁(latching〉就会发生了。SQL Server必须保证这类数据移动能够不受干扰地发生。</p>
+<h4 id="锁的模式"><a href="#锁的模式" class="headerlink" title="锁的模式"></a>锁的模式</h4><p>锁的模式：共享锁、排它锁、更新锁、意向锁以及这些类型的一些变种。</p>
+<ol>
+<li><p>共享锁(Shared Locks)</p>
+<p>当数据被读取时，SQL Server自动获取共享锁。共享锁可以被一张表、一个分页、一个索引键或者一个单独的行所持有。许多进程可以在同-数据上都持有共享锁，但是没有进程可以在已经有一个共享锁存在的情况下，在该数据上再获得一个排他锁（除非申请排他锁的进程和持有共享锁的进程是同一个）。<strong>一般地，当数据已经读取完毕后，共享锁就会立即释放掉</strong>，但是可以通过使用查询提示(query hints）或者采用不同的事务隔离级别来改变这种（默认）方式。</p>
+</li>
+<li><p>排它锁(Exclusive Locks)</p>
+<p>当数据被插入、更新或者删除操作修改以后，SQL Server就会自动获取数据上的排他锁。一次只能有一个进程持有特定数据资源上的排他锁。实际上，如果别的进程已经排他性地锁定住某个进程所要申请的数据资源，那么该进程就无法获取任何类型的锁了。排他锁会保留到事务结束为止。这就意味着被修改的数据通常在当前事务提交或者回滚之前对其他进程来说是不可用的。<strong>其他进程可以通过使用查询提示来读取被排他性锁定的数据。</strong>如使用(NoLock)脏读。</p>
+</li>
+<li><p>更新锁(Update Locks)</p>
+<p>更新锁实际上并不是一种独立的锁，它们是共享锁和排他锁的一种混合（hybrid)。当SQL Server执行一个数据修改操作但首先需要搜索表以寻找到要被修改的资源时,更新锁就会被获取了。通过使用查询提示，一个进程可以明确地申请更新锁，在这种情况下，更新锁就能够预防转换死锁(conversion deadlock)的情况。<br>更新锁提供对当前其他数据读者的兼容性，在确保数据自上次读取以后尚未修改的前提下，使进程能够在稍后对数据进行修改。更新锁本身是不足以使用户能够修改数据的——<strong>所有的数据修改都要求被修改的数据资源上存在一个排他锁。</strong>更新锁的作用就好像一个串行化闸门（serialization gate），将后续申请排他锁的请求压入队列中（许多进程都可以对一个资源持有共享锁，但是只有几个进程能够持有更新锁)。<strong>只要有一个进程对资源持有更新锁，其他进程就无法获取该资源的更新锁或者排他锁了，而其他正在申请相同资源上更新锁或者排他锁的进程就必须等待了。</strong>持有更新锁的进程能够将其转换成该资源上的排他锁，因为更新锁避免了与其他进程之间的锁不兼容性。<strong>可以将更新锁看作是“意图更新”(intent-to-update）锁，在根本上也就是它们所扮演的角色了。</strong>如果单独使用的话，更新锁是不足以更新数据的—-仍然需要获取排他锁来进行实际的数据修改。对于排他锁的依次访问可以避免转换死锁(conversion deadlock）的发生。更新锁会保留到事务结束或者当它们转换成排他锁时为止。<br>不要被名字所误导了：更新锁并不只是针对更新操作而设计的。<strong>SQL Server使用更新锁适用于任何需要在进行实际修改之前搜索数据的数据修改操作。</strong>这样的操作包括受限更新及删除，也包括在带有聚集索引的表上进行的插入操作。对于后面一种情况，SQLServer必须先搜索数据（使用聚集索引）以找到正确的位置来插入新的记录。<strong>当 SQLServer 只进行到搜索阶段时，它会采用更新锁来保护数据，而只有当它找到正确的位置并开始插入以后才将更新锁升级成排他锁。</strong></p>
+</li>
+<li><p>意向锁(Intent Locks)</p>
+<p>意向锁实际上并不是一种独立的锁定模式，它们是之前讨论过的那些模式的限定词(qualifier)。换句话说，可以拥有意向共享锁、意向排他锁甚至意向更新锁。<strong>由于SQLServer 可以在不同级别的粒度上获取锁，因此需要一种机制来指出一个资源上的组件已经被锁定住了。</strong>举例来说，如果一个进程试图锁定一张表，SQL Server就需要采用一种方式来判断这张表上的一行（或者一个分页)已经被锁定住了。意向锁就是起这个作用的。</p>
+</li>
+<li><p>架构稳定锁( schema stability locks) </p>
+<p>当查询被编译时，架构稳定锁会防止其他进程获取架构修改锁（在表结构被修改时获得〉。</p>
+</li>
+<li><p>架构修改锁( schema modification locks）</p>
+</li>
+<li><p>大容量更新锁(（bulk update locks)。</p>
+<p>在执行BULK INSERT命令或者使用bep工具将数据导入表时就会获取大容量更新锁。另外，大容量导入操作必须使用TABLOCK查询提示来请求这个特殊的锁。或者，可以将表的table lock on bulk load选项设为true，然后任何大容量导入(bulk copy IN)或者BULK INSERT操作都会自动申请大容量更新锁。申请这种特殊的大容量更新表级锁不一定代表会授予(grant）这个锁。如果其他进程已经持有了表上的锁，或者表上有索引存在，就不会授予大容量更新锁了。如果有多个连接已经申请并得到了一个大容量更新锁，它们可以执行并行调用将数据导入相同的表中。与排他锁不同的是，大容量更新锁之间不会互相冲突，因此多连接的并发插入在 SQL Server中是支持的。</p>
+</li>
+<li><p>转换锁(Converion Locks)</p>
+<p>SQL Server不会直接申请转换锁,而是由一种模式转换成另一种模式所造成的。SQLScrver 2005所支持的三类转换锁是:SIX、SIU 以及UIX。其中最常见的是SIX，如果事务正持有一个资源上的共享锁(S）并在稍后需要一个意象排他(IX)锁时产生，这种锁定模式可以简写为 SIX。</p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>缩写</th>
+<th>锁定模式</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>S</td>
+<td>Shared</td>
+<td>允许其他用户读取但不能修改被锁定资源</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Exclusive</td>
+<td>防止别的进程修改或者读取被锁定资源的数据(除非该进程设定为未提交读隔离级别)</td>
+</tr>
+<tr>
+<td>U</td>
+<td>Update</td>
+<td>防止其他进程获取更新锁或者排他锁：在搜索数据并修改时使用</td>
+</tr>
+<tr>
+<td>IS</td>
+<td>Intent Shared</td>
+<td>表示该资源的一个组件被一个共享锁锁定住了。这类锁只能在表级或者分页级才能被获取</td>
+</tr>
+<tr>
+<td>IU</td>
+<td>Intent Update</td>
+<td>表示该资源的一个组件被一个更新锁锁定住了。这类锁只能在表级或者分页级才能被获取</td>
+</tr>
+<tr>
+<td>IX</td>
+<td>Intent Exclusive</td>
+<td>表示该资源的一个组件被一个排他锁锁定住了。这类锁只能在表级或者分页级才能被获取</td>
+</tr>
+<tr>
+<td>SIX</td>
+<td>Shared With Intent Exclusive</td>
+<td>表示一个正持有共享锁的资源还有一个组件(一个分页或者一行记录)被一个排他锁锁定住了</td>
+</tr>
+<tr>
+<td>SIU</td>
+<td>Shared With Intent Update</td>
+<td>表示一个正持有共享锁的资源还有一个组件（一个分页或者一行记录〉被一个更新锁锁定住了</td>
+</tr>
+<tr>
+<td>UIX</td>
+<td>Update With Intent Exclusive</td>
+<td>表示-个正持有更新锁的资源还有一个组件(一个分页或者行记录)被一个排他锁锁定住了</td>
+</tr>
+<tr>
+<td>Sch-S</td>
+<td>Schema Stability</td>
+<td>表示一个使用该表的查询正在被编译</td>
+</tr>
+<tr>
+<td>Sch-M</td>
+<td>Schema Modification</td>
+<td>表示表的结构正在被修改</td>
+</tr>
+<tr>
+<td>BU</td>
+<td>Bulk Update</td>
+<td>在一个大容量复制操作将数据导入表并且应用了TABLOCK查询提示时使用(手动或者自动皆可)</td>
+</tr>
+</tbody></table>
+<h4 id="锁的粒度"><a href="#锁的粒度" class="headerlink" title="锁的粒度"></a>锁的粒度</h4><p>锁的粒度：规定了一个单独的锁能够覆盖多少数据。可以是一行、一个分页、一个索引键、索引键的一个范围、一个扩展抑或是整张表。</p>
+<p>SQL Server可以锁定表、分页、行等级别的用户数据资源〈非系统资源;而系统资源是由闩来保护的）。它同样可以锁定索引键以及一定范围内的索引键。<strong>谨记如果表上存在聚集索引，数据行就在聚集索引的叶级别并且是由键锁而不是行锁来锁定它们的。</strong></p>
+<p>sys.dm_tran_locks视图对每个锁都进行追踪并且包含了被锁定资源（譬如行、键或者分页)、锁的模式以及特定资源的一个标识符（identifier)。<strong>谨记: sys.dm_tran_locks 只是一个用来显示所持有锁的动态管理视图。实际的信息是储存在SQL Server 内部的数据结构中，对用户来说是完全不可见的。</strong>因此，当谈论到sys.dm_tran_locks 视图中所存在的信息时，实际上指的就是通过该视图能够看到的信息。<br>当一个进程申请锁时，SQL Server会将所申请的锁与sys.dm_tran_locks中已经列出的资源相比较并寻找完全匹配资源类型（resource_type）以及标识符（identifier）的锁。</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- 有时候我们只需关注加在数据资源上的锁</span></span><br><span class="line"><span class="keyword">SELECT</span> resource_type,resource_description,</span><br><span class="line">resource_associated_entity_id,request_mode,request_status</span><br><span class="line"><span class="keyword">FROM</span> sys.dm_tran_locks</span><br><span class="line"><span class="keyword">wHERE</span> resource_associated_entity_id <span class="operator">&gt;</span> <span class="number">0</span></span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">--sys.dm_tran_locks是一个用来显示所持有锁的动态管理视图</span></span><br><span class="line"><span class="keyword">select</span>    </span><br><span class="line">    request_session_id spid,   </span><br><span class="line">    OBJECT_NAME(resource_associated_entity_id) tableName    </span><br><span class="line"><span class="keyword">from</span>    </span><br><span class="line">    sys.dm_tran_locks   </span><br><span class="line"><span class="keyword">where</span>    </span><br><span class="line">    resource_type<span class="operator">=</span><span class="string">&#x27;OBJECT&#x27;</span>  </span><br></pre></td></tr></table></figure>
+
+<h5 id="键锁"><a href="#键锁" class="headerlink" title="键锁"></a>键锁</h5><p>SQL Server 2005支持两种类型的键锁，而它究竞采用哪种类型则取决于当前事务的隔离级别。如果隔离级别是已提交读、可重复读或者快照，SQL Server会在处理查询时尝试锁定实际被访问的索引键。对于拥有聚集索引的表而言，数据行就是索引的叶级别,而用户可以看到所获得的键锁。如果表是堆结构(heap）的话，用户可能会看到非聚集索引上的键锁以及实际数据上的行锁。<br>如果隔离级别是可串行化，情况就有所不同了。为了防止幻影，如果在一个事务中扫描了一个范围内的数据就需要充分锁定住该表以确保没人能够插入新值到已扫描的范围内。</p>
+<h5 id="应用程序级锁"><a href="#应用程序级锁" class="headerlink" title="应用程序级锁"></a>应用程序级锁</h5><p>SQL Server储存锁定信息及检查不兼容锁所采用的方法是相当直观和可扩展的。SQL Server并不知道被它锁定的对象。它仅仅是处理一-些代表资源的字符串，并不知道该对象的实际结构。如果两个进程试图在同一资源上获取不相兼容的锁就会发生阻塞。<br>应用程序级锁使用户能够利用SQL Server提供的检测阻塞和死锁情况的机制，并且可以选择锁定住任何想要锁住的东西。这些可锁定资源就是应用程序级锁。要定义一个应用程序级锁，就要为想要锁定的资源指定一个名字、锁的模式、所有者(或者范畴)、超时设定以及<strong>一个数据库主体ID(Database Principal lD，也就是数据库中能够拥有权限的一个用户、角色、应用程序角色等）</strong>。与SQL Server自己的可锁定资源（如表和分页等）不同的是，应用程序级锁必须进行明确地申请。只有符合以下标准之一的用户才能够执行sp _getapplock存储过程:</p>
+<ul>
+<li>用户(user）是dbo</li>
+<li>用户属于db_owner角色</li>
+<li>用户属于指定的数据库主体ID角色（如果ID是一个个体的名字）</li>
+<li>用户属于指定的数据库主体ID角色(如果ID是一个角色）</li>
+</ul>
+<p>默认的数据厍主体ID是public(可以调用sp _getapplock察看）</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Param1:锁定资源别名,不超过255个字符</span></span><br><span class="line"><span class="comment">-- Param2:锁的模式可以是共享/排他/更新/意向排他/意向共享锁等,下面是一个排他锁</span></span><br><span class="line"><span class="comment">-- Param3:锁的范围可以是事务或会话,下面是一个会话</span></span><br><span class="line"><span class="comment">-- Param4:数据库主体ID</span></span><br><span class="line"><span class="keyword">EXEC</span> sp_getapp1ock <span class="string">&#x27;ProcLock &#x27;</span>，<span class="string">&#x27;Exclusive&#x27;</span>，<span class="string">&#x27;session&#x27;</span>，<span class="string">&#x27; ProcUserRole&#x27;</span></span><br><span class="line"><span class="keyword">EXEC</span> MyProc <span class="operator">&lt;</span><span class="keyword">parameter</span> <span class="number">1</span>ist<span class="operator">&gt;</span></span><br><span class="line"><span class="comment">-- 存储过程执行完毕以后释放锁</span></span><br><span class="line"><span class="keyword">EXEC</span> sp_releaseapplock <span class="string">&#x27;ProcLock &quot; , &#x27;</span>session<span class="string">&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>SQL Server只是在申请应用程序锁时往sys.dm_tran_locks 视图中添加一行记录，并且通过资源名称和数据库主体ID来与其他已经申请过的锁进行比较。</strong>注意存储过程本身实际上并没有被锁定住。如果别的用户或应用程序不知道这是一个特殊的存储过程，并且试图不通过获取应用程序锁来执行MyProc，SQL Server并不会阻止该会话执行这个存储过程。</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- 创建锁表</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> [dbo].[Sys_Lock]</span><br><span class="line">(</span><br><span class="line">[LockName] [nvarchar] (<span class="number">50</span>) ,</span><br><span class="line">[LockStatus] [bit]</span><br><span class="line">) <span class="keyword">ON</span> [<span class="keyword">PRIMARY</span>]</span><br><span class="line">GO</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 创建事务后更新Sys_Lock生成一个更新锁</span></span><br><span class="line"><span class="keyword">Update</span> Sys_Lock <span class="keyword">Set</span> LockStatus<span class="operator">=</span><span class="number">1</span> <span class="keyword">Where</span> LockName<span class="operator">=</span><span class="string">&#x27;Lock&#x27;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h5 id="鉴别锁定资源"><a href="#鉴别锁定资源" class="headerlink" title="鉴别锁定资源"></a>鉴别锁定资源</h5><p>当SQL Server要决定是否可以授予一个申请的锁时,会检查sys.dm _tran_locks 视图来判断是否已经有处于冲突锁模式的匹配锁存在了。它通过察看数据库ID(resource_database_ID) 、resource_description . resource_associated_entity _.id字段中的值以及被锁定资源的类型来比较锁。SQL Server并不了解资源描述中的含义。它只是比较识别锁资源的字段来寻找一个匹配。如果发现一个匹配且request _status值是GRANT，它就知道资源已经被锁定住了。然后SQL Scrver 会利用锁兼容性矩阵来判断当前的锁是否在正申请的锁中兼容。</p>
+<table>
+<thead>
+<tr>
+<th>资源类型</th>
+<th>资源描述</th>
+<th>例子</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>DATABASE</td>
+<td>无：每个被锁资源的resource_database_ID字段都指明了数据库</td>
+<td></td>
+</tr>
+<tr>
+<td>OBJECT</td>
+<td>对象ID(可以是任何数据库对象,不一定就是表)其数值是由resource_associated_entity_id字段反馈的</td>
+<td>69575286</td>
+</tr>
+<tr>
+<td>EXTENT</td>
+<td>扩展的第一个分页的文件号:页号</td>
+<td>1:96</td>
+</tr>
+<tr>
+<td>PAGE</td>
+<td>实际表或者索引分页的文件号:分页号</td>
+<td>1:104</td>
+</tr>
+<tr>
+<td>KEY</td>
+<td>由所有键的组成部分及定位符得到的哈希值。对于一个建在堆上的非聚集索引(c1和c2是索引列),哈希将包含来自c1,c2以及RID的贡献</td>
+<td>ac0001a10a00</td>
+</tr>
+<tr>
+<td>ROW</td>
+<td>实际数据行的文件号:页号:槽号</td>
+<td>1:161:3</td>
+</tr>
+<tr>
+<td>APPLICATION</td>
+<td>一个连接串,由以下几个部分组成:有权访问该锁的数据库主体、锁名的前32个字符以及根据该锁全名得到的哈希值</td>
+<td>0:[ProcLock]:(8e14701f)</td>
+</tr>
+</tbody></table>
+<p>注意:键锁和键范围锁具有相同的资源描述，因为键范围被视为一种锁定模式，而不是一种锁定资源。当察看sys.dm_tran_locks 视图的输出结果时，可以通过锁模式字段的值来区分各种类型的锁。</p>
+<p>对于一个较大实体内的部分被锁资源，sys.dm_tran_locks中的resource_associated.entity_id字段显示了数据库中的那个关联实体的ID。</p>
+<h4 id="锁的持续时间"><a href="#锁的持续时间" class="headerlink" title="锁的持续时间"></a>锁的持续时间</h4><p>锁的持续时间：一些锁在数据被访问完成以后会立刻释放掉，有些锁会保留到事务提交或回滚为止。</p>
+<p>锁的持续时间主要取决于锁的模式和当前作用的事务隔离级别。<strong>SQLServer的默认隔离级别是已提交读。在该级别下，SQL Server会在读取和处理完锁定数据以后立刻释放共享锁</strong>。对于快照隔离级别，其行为也是相同的——SQL Server 读完数据后立即释放共享锁。如果事务隔离级别是可重复读或者可串行化，共享锁就和排他锁的持续时间相同。也就是说，直到事务结束时才会被释放。对于任何隔离级别，无论事务是被提交还是被回滚，排他锁都会一直持续到事务结束为止。更新锁也会像排他锁一样总是持续到事务结束，除非它已经被升级成排他锁了（在这种情况下的排他锁，其实对于排他锁来说总会保留到事务结束为止）。</p>
+<p>除了改变事务隔离级别，还可以使用查询提示来控制锁的持续时间。</p>
+<h4 id="锁的所有权问题"><a href="#锁的所有权问题" class="headerlink" title="锁的所有权问题"></a>锁的所有权问题</h4><p>锁的所有权问题：锁可以被一个会话、事务或者游标所拥有。</p>
+<p>参考：</p>
+<ul>
+<li>Microsoft SQL Server 2005技术内幕：存储引擎</li>
+<li>Microsoft SQL Server 2005技术内幕：T-SQL程序设计</li>
+<li>Microsoft SQL Server 2005技术内幕：查询、调整和优化</li>
+</ul>
+]]></content>
+      <categories>
+        <category>SQL</category>
+      </categories>
+      <tags>
+        <tag>SQL</tag>
+        <tag>ReadingNotes</tag>
+      </tags>
+  </entry>
 </search>
