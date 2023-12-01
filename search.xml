@@ -2216,6 +2216,27 @@
 <p>锁的持续时间主要取决于锁的模式和当前作用的事务隔离级别。<strong>SQLServer的默认隔离级别是已提交读。在该级别下，SQL Server会在读取和处理完锁定数据以后立刻释放共享锁</strong>。对于快照隔离级别，其行为也是相同的——SQL Server 读完数据后立即释放共享锁。如果事务隔离级别是可重复读或者可串行化，共享锁就和排他锁的持续时间相同。也就是说，直到事务结束时才会被释放。对于任何隔离级别，无论事务是被提交还是被回滚，排他锁都会一直持续到事务结束为止。更新锁也会像排他锁一样总是持续到事务结束，除非它已经被升级成排他锁了（在这种情况下的排他锁，其实对于排他锁来说总会保留到事务结束为止）。</p>
 <p>除了改变事务隔离级别，还可以使用查询提示来控制锁的持续时间。</p>
 <h4 id="锁的所有权问题"><a href="#锁的所有权问题" class="headerlink" title="锁的所有权问题"></a>锁的所有权问题</h4><p>锁的所有权问题：锁可以被一个会话、事务或者游标所拥有。</p>
+<p>一共存在四种锁的所有者(或范畴）类型:事务型、游标型、事务工作空间型(transaction_workspace)和会话型。可以通过.sys.dm_tran_locks视图的request_owner_type字段来察看锁的所有者。</p>
+<h4 id="观察锁"><a href="#观察锁" class="headerlink" title="观察锁"></a>观察锁</h4><p>sys.dm_tran_locks中的所有字段名都是以两种前缀中的一种来开头的。以 resource_开头的字段对SQL Server正在其上申请锁的这个资源进行了描述。以request_开头的字段描述了中请过程。只有当所有的resource_字段内容相同时，才表示两个申请作用于相同的资源上。</p>
+<h5 id="请求字段"><a href="#请求字段" class="headerlink" title="请求字段"></a>请求字段</h5><p>请求字段之前也已提到了几个sys.dm_tran_locks 中最重要的request_字段，</p>
+<ul>
+<li>request_mode (申请锁的类型) </li>
+<li>request_owner_type(申请锁的范畴）</li>
+<li>request_type：sys.dm_tran_locks中追踪的唯一资源申请类型是锁(LOCK）</li>
+<li>request _status：请求的当前状态可以是以下三个值中的一个:GRANT、CONVERT或者WAIT。<ul>
+<li>CONVERT状态表示请求者已经被授予了相同资源上的一个不同模式的请求，所以当前正处于从所要授予的锁定模式进行升级（转换）的等待状态中（譬如，SQL Server可以将一个U锁转换成X锁）</li>
+<li>WAIT状态表示请求者当前还未在资源上持有一个已授权的请求</li>
+</ul>
+</li>
+<li>request_reference_count：该值返回同意请求程序已请求该资源的近似次数，并且仅适用于那些在事务结束时不会自动释放的资源。如果该值递减到0并且request_lifetime也是0的话，一个已授权资源就不再被视作被某个请求者占有着了。</li>
+<li>request_lifetime：该值表示资源上的锁何时会释放。</li>
+<li>request_session_id：该值表示当前拥有该请求的会话ID。对于分布式事务(DTC）和绑定事务，拥有请求的会话ID可能不同。该值为-2时，指示该请求属于孤立的分布式事务。该值为-3时，指示请求属于延迟的恢复事务(例如因其回滚未能成功完成而延迟恢复该回滚的事务）。</li>
+<li>request_exec_context_id：该值表示当前拥有该请求的进程的执行上下文ID。如果该值大于0，表示这是一个用于执行并行查询的子线程。</li>
+<li>request_request_id：该值是当前拥有该请求的进程的请求ID(批处理ID)。SQLServer只有在来自多个活动的结果集（MARS）的客户端应用程序的请求的情况下才会填充这个字段。</li>
+<li>request_owner_id：该值目前仅供所有者为事务的请求使用，且所有者ID就是事务ID。该字段可以与sys.dm_tran_active_transactions视图中的transaction_id字段进行连接。</li>
+<li>request_owner_guid：该值目前仅供分布式事务使用，在该事务中，该值与事务的DTC GUID相对应。</li>
+<li>lock_owner_address：该值用于跟踪该请求的内部数据结构的内存地址。如果请求处于WAIT或者CONVERT 状态,该字段可以与sys.dm_os_waiting_tasks中的resource_address字段连接。</li>
+</ul>
 <p>参考：</p>
 <ul>
 <li>Microsoft SQL Server 2005技术内幕：存储引擎</li>
