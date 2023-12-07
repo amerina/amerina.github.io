@@ -16,8 +16,8 @@ https://www.wuzhaoyang.fun/about.html
 https://www.wuzhaoyang.fun/categories/index.html
 https://www.wuzhaoyang.fun/tags/index.html
 https://www.wuzhaoyang.fun/
-https://www.wuzhaoyang.fun/tags/Goal/
 https://www.wuzhaoyang.fun/tags/DDD/
+https://www.wuzhaoyang.fun/tags/Goal/
 https://www.wuzhaoyang.fun/tags/Macola-ERP/
 https://www.wuzhaoyang.fun/tags/NETCore/
 https://www.wuzhaoyang.fun/tags/API/
@@ -25,8 +25,8 @@ https://www.wuzhaoyang.fun/tags/Nuget/
 https://www.wuzhaoyang.fun/tags/SQL/
 https://www.wuzhaoyang.fun/tags/ReadingNotes/
 https://www.wuzhaoyang.fun/tags/Pattern/
-https://www.wuzhaoyang.fun/categories/Goal/
 https://www.wuzhaoyang.fun/categories/DDD/
+https://www.wuzhaoyang.fun/categories/Goal/
 https://www.wuzhaoyang.fun/categories/Macola-ERP/
 https://www.wuzhaoyang.fun/categories/NETCore/
 https://www.wuzhaoyang.fun/categories/Nuget/
