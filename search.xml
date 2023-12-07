@@ -2253,14 +2253,14 @@
       </tags>
   </entry>
   <entry>
-    <title>程序员能力矩阵</title>
+    <title>Programmer Competency Matrix</title>
     <url>/2023/12/07/Programmer%20Competency%20Matrix/</url>
     <content><![CDATA[<p>原文：<a href="http://sijinjoseph.com/programmer-competency-matrix/">Programmer Competency Matrix</a></p>
 <p><strong>注意：每个水平的知识是累积的</strong></p>
 <table>
 <thead>
 <tr>
-<th>计算机科学</th>
+<th><div style="width=100px;">计算机科学</div></th>
 <th></th>
 <th></th>
 <th></th>
