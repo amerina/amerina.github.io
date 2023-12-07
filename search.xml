@@ -881,7 +881,7 @@
 <table>
 <thead>
 <tr>
-<th><div style="width=100px;">计算机科学</div></th>
+<th><div style="min-width=100px;">计算机科学</div></th>
 <th></th>
 <th></th>
 <th></th>
