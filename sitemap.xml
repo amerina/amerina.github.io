@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wuzhaoyang.fun/2023/12/01/SQLServer%20Locking%20and%20Concurrency/</loc>
+    
+    <lastmod>2023-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wuzhaoyang.fun/2023/06/27/Domain%20Driven%20Design%20Glossary/</loc>
+    
+    <lastmod>2023-12-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wuzhaoyang.fun/2023/12/07/Programmer%20Competency%20Matrix/</loc>
     
     <lastmod>2023-12-07</lastmod>
@@ -29,15 +47,6 @@
   </url>
   
   <url>
-    <loc>https://www.wuzhaoyang.fun/2023/12/01/SQLServer%20Locking%20and%20Concurrency/</loc>
-    
-    <lastmod>2023-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.wuzhaoyang.fun/2023/11/28/Time%20Will%20Tell%20Me%20The%20Answer/</loc>
     
     <lastmod>2023-11-29</lastmod>
@@ -57,15 +66,6 @@
   
   <url>
     <loc>https://www.wuzhaoyang.fun/2023/06/26/Publish%20Nuget%20from%200%20to%201/</loc>
-    
-    <lastmod>2023-11-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wuzhaoyang.fun/2023/06/27/Domain%20Driven%20Design%20Glossary/</loc>
     
     <lastmod>2023-11-28</lastmod>
     
@@ -157,7 +157,7 @@
 
   <url>
     <loc>https://www.wuzhaoyang.fun/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -165,63 +165,63 @@
   
   <url>
     <loc>https://www.wuzhaoyang.fun/tags/DDD/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/tags/Goal/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/tags/Macola-ERP/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/tags/NETCore/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/tags/API/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/tags/Nuget/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/tags/SQL/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/tags/ReadingNotes/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/tags/Pattern/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -230,49 +230,49 @@
   
   <url>
     <loc>https://www.wuzhaoyang.fun/categories/DDD/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/categories/Goal/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/categories/Macola-ERP/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/categories/NETCore/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/categories/Nuget/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/categories/SQL/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.wuzhaoyang.fun/categories/Pattern/</loc>
-    <lastmod>2023-12-07</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

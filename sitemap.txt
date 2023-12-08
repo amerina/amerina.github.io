@@ -1,11 +1,11 @@
+https://www.wuzhaoyang.fun/2023/12/01/SQLServer%20Locking%20and%20Concurrency/
+https://www.wuzhaoyang.fun/2023/06/27/Domain%20Driven%20Design%20Glossary/
 https://www.wuzhaoyang.fun/2023/12/07/Programmer%20Competency%20Matrix/
 https://www.wuzhaoyang.fun/link/index.html
 https://www.wuzhaoyang.fun/2023/12/07/How%20to%20build%20yourself%20cognitive%20system/
-https://www.wuzhaoyang.fun/2023/12/01/SQLServer%20Locking%20and%20Concurrency/
 https://www.wuzhaoyang.fun/2023/11/28/Time%20Will%20Tell%20Me%20The%20Answer/
 https://www.wuzhaoyang.fun/2023/11/23/NET%20Core%20API%20Best%20Practices/
 https://www.wuzhaoyang.fun/2023/06/26/Publish%20Nuget%20from%200%20to%201/
-https://www.wuzhaoyang.fun/2023/06/27/Domain%20Driven%20Design%20Glossary/
 https://www.wuzhaoyang.fun/2023/11/20/Macola%20Domain%20Knowledge/
 https://www.wuzhaoyang.fun/2023/11/28/Make%20Your%20Time%20Valuable/
 https://www.wuzhaoyang.fun/2023/06/28/Find%20Your%20Life%20Goals/
